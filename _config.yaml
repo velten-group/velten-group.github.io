@@ -1,18 +1,18 @@
 # site properties and page defaults
-title: velten-group
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+title: Velten Group
+subtitle: Heidelberg University, COS & IWR
+description: We are an interdisciplinary team of scientists developing statistical methods and machine learning approaches
+to move from molecular data to biological insight
 header: images/background.jpg
 footer: images/background.jpg
 
 # site social media and other links
 links:
-  email: contact@velten-group.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: britta.velten [at] cos.uni-heidelberg.de
+  orcid: 0000-0002-8397-3515
+  google-scholar: sJ2lkaAAAAAJ&hl
   github: velten-group
-  twitter: velten-group
-  youtube: velten-group
+  twitter: https://twitter.com/brittavelten
 
 ### jekyll settings
 
