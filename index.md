@@ -3,11 +3,13 @@
 
 # Welcome to the Velten Group!
 
-We are an interdisciplinary team of scientists at the interface of data science, machine learning and the life sciences developing statistical methods and machine learning approaches to move from molecular data (‘omics data’) to biological insight.
+We are an interdisciplinary team of scientists developing statistical methods and machine learning approaches to move from molecular data (‘omics data’) to biological insight.
 
-Complex experimental designs and novel experimental technologies enable researchers to study tissues, organisms and biological processes at unprecedented resolution and scale. This produces a wealth of diverse molecular data to shed light on the molecular heterogeneity and regulatory mechanisms of biological processes. 
+Complex experimental designs and novel experimental technologies enable researchers to study biological processes at unprecedented resolution and scale. 
 
-In our group we advance the statistical methods and computational tools for a powerful and statistically sound analysis of this data building upon and developing novel ideas in the field of machine learning and statistics. Jointly with our collaborators we apply our tools to unravel the molecular underpinnings of organismal function, development, plasticity and diseases.
+We aim to translate and advance ideas from machine learning and statistics for the analysis of such data and make them available to the research community. 
+
+Jointly with our collaborators we apply our methods to unravel the molecular underpinnings of organismal function, development, plasticity and diseases.
 
 {% include section.html %}
 
@@ -39,7 +41,7 @@ We are a small interdisciplinary team of people with a shared passion for resear
 
 {% capture text %}
 
-Our projects are focussed on integrative data analysis of omics data, modelling of spatio-temporal data and using causal inference to dissect gene regulation. We aim to translate and advance ideas from machine learning and statistics for these questions and make them available to the research community.
+Research topics include the integrative data analysis of omics data, modelling of spatio-temporal data and using causal inference to dissect gene regulation. 
 
 {%
   include button.html
