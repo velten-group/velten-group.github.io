@@ -1,9 +1,13 @@
 ---
 ---
 
-# velten-group's Website
+# Welcome to the Velten Group!
 
-An engaging 1-3 sentence description of your lab.
+We are an interdisciplinary team of scientists at the interface of data science, machine learning and the life sciences developing statistical methods and machine learning approaches to move from molecular data (‘omics data’) to biological insight.
+
+Complex experimental designs and novel experimental technologies enable researchers to study tissues, organisms and biological processes at unprecedented resolution and scale. This produces a wealth of diverse molecular data to shed light on the molecular heterogeneity and regulatory mechanisms of biological processes. 
+
+In our group we advance the statistical methods and computational tools for a powerful and statistically sound analysis of this data building upon and developing novel ideas in the field of machine learning and statistics. Jointly with our collaborators we apply our tools to unravel the molecular underpinnings of organismal function, development, plasticity and diseases.
 
 {% include section.html %}
 
@@ -11,55 +15,7 @@ An engaging 1-3 sentence description of your lab.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are a small interdisciplinary team of people with a shared passion for research and the commitment to succeed as a team.
 
 {%
   include button.html
@@ -79,3 +35,52 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   title="Our Team"
   text=text
 %}
+
+
+{% capture text %}
+
+Our projects are focussed on integrative data analysis of omics data, modelling of spatio-temporal data and using causal inference to dissect gene regulation. We aim to translate and advance ideas from machine learning and statistics for these questions and make them available to the research community.
+
+{%
+  include button.html
+  link="projects"
+  text="Browse our projects"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="projects"
+  title="Our Research"
+  flip=true
+  style="bare"
+  text=text
+%}
+
+{% capture text %}
+
+Find out more about some recent publications from the group.
+{%
+  include button.html
+  link="research"
+  text="See our publications"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="research"
+  title="Publications"
+  text=text
+%}
+
