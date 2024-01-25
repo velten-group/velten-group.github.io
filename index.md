@@ -5,11 +5,7 @@
 
 We are an interdisciplinary team of scientists developing statistical methods and machine learning approaches to move from molecular data (‘omics data’) to biological insight.
 
-Complex experimental designs and novel experimental technologies enable researchers to study biological processes at unprecedented resolution and scale. 
-
-We aim to translate and advance ideas from machine learning and statistics for the analysis of such data and make them available to the research community. 
-
-Jointly with our collaborators we apply our methods to unravel the molecular underpinnings of organismal function, development, plasticity and diseases.
+Complex experimental designs and novel experimental technologies enable researchers to study biological processes at unprecedented resolution and scale. We aim to translate and advance ideas from machine learning and statistics for the analysis of such data and make them available to the research community. Jointly with our collaborators we apply our methods to unravel the molecular underpinnings of organismal function, development, plasticity and diseases.
 
 {% include section.html %}
 
