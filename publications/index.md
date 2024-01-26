@@ -19,7 +19,7 @@ Here you can find our recent publications.
 {% include section.html %} -->
 
 
-<!-- ## All -->
+## All
 
 {% include search-box.html %}
 
