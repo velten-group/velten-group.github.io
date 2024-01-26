@@ -5,9 +5,7 @@
 
 We are an interdisciplinary team of scientists developing statistical methods and machine learning approaches to move from molecular data (‘omics data’) to biological insight.
 
-Complex experimental designs and novel technologies enable researchers to study biological processes at unprecedented resolution and scale. We aim to translate and advance ideas from machine learning and statistics for the analysis of such data and make them available to the research community. 
-
-Jointly with our collaborators we apply our methods to unravel the molecular underpinnings of organismal function, development, plasticity and diseases.
+Complex experimental designs and novel technologies enable researchers to study biological processes at unprecedented resolution and scale. We aim to translate and advance ideas from machine learning and statistics for the analysis of such data and make them available to the research community. Jointly with our collaborators we apply our methods to unravel the molecular underpinnings of organismal function, development, plasticity and diseases.
 
 {% include section.html %}
 
@@ -30,7 +28,7 @@ We are a small interdisciplinary team with a shared passion for research and the
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team.jpeg"
   link="team"
   title="Our Team"
   text=text
@@ -54,7 +52,7 @@ Research topics include multi-factorial data analysis, modelling of spatio-tempo
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/research.jpeg"
   link="research"
   title="Our Research"
   flip=true
@@ -78,7 +76,7 @@ Find out more about some recent publications from the group.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/publications.jpeg"
   link="publications"
   title="Publications"
   text=text
@@ -101,7 +99,7 @@ Find out more about the software and tools developed by our group.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/software.jpeg"
   link="https://github.com/velten-group"
   title="Software"
   flip=true

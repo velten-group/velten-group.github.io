@@ -21,5 +21,4 @@ Want to [join us](https://velten-group.github.io/join/)?
 
 ## Alumni
 
-{% include list.html  data="members"  component="name"  filters="role: alum" %}
-
+- Luna Račić, MSc Student

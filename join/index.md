@@ -30,6 +30,9 @@ We regularly participate in the [ELLIS PhD Program Calls](https://ellis.eu/).
 ### BSc and MSc students
 We are happy to host you for your BSc, MSc thesis or an internship in our lab. If you are interested, please contact Britta Velten with your CV, transcripts of record, a short statement outlining your research interests and why you want to join our lab, and the proposed duration of your stay.
 
+## How to apply
+To apply please send a CV, a letter of motivation, transcripts of records and contact details of 2 references in a single pdf directly to Britta Velten. Additional supporting documents demonstrating your prior experience incl. code samples of previous projects, link to a gitHub repository or extracts of your PhD, M.Sc., or B.Sc. thesis (as applicable) are very welcome. 
+
 
 {% include section.html %}
 
@@ -38,5 +41,3 @@ Located at COS (Centre for Organismal Studies) and IWR (Interdisciplinary Center
 
 As part of Heidelberg University, the European Laboratory for Learning & Intelligent Systems (ELLIS) and the Single Cell Center Heidelberg members of our group can take advantage of a vibrant research community and build up a strong scientific network. PhD candidates will be enrolled in the Heidelberg Graduate School of Mathematical and Computational Methods for the Sciences (HGS MathComp) or Heidelberg Biosciences International Graduate School (HBIGS) providing access to courses, trainings, scientific meetings and other activities for scientific networking and career development. General services and benefits are provided by Heidelberg University to enrolled PhD students and employees (incl. food, transportation, university sports etc.).
 
-## How to apply
-To apply please send a CV, a letter of motivation, transcripts of records and contact details of 2 references in a single pdf directly to Britta Velten. Additional supporting documents demonstrating your prior experience incl. code samples of previous projects, link to a gitHub repository or extracts of your PhD, M.Sc., or B.Sc. thesis (as applicable) are very welcome. 
