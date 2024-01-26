@@ -5,9 +5,9 @@ nav:
   tooltip: About our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# {% include icon.html icon="fa-solid fa-face-smile" %}Team
 
-We are a small interdisciplinary team of people with a shared passion for research and the commitment to succeed as a team.
+We are a small interdisciplinary team of people with a shared passion for research and the commitment to succeed as a team. Want to [join us](join)?
 
 {% include section.html %}
 
