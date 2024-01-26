@@ -5,7 +5,7 @@ nav:
   tooltip: Our projects
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-circle-nodes" %}Research
 
 {% include section.html %}
 
