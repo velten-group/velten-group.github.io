@@ -21,7 +21,7 @@ Modern technologies enable researchers to study biological organisms and process
 
 {%
   include feature.html
-  image="images/research/multimodal"
+  image="images/research/multimodal.png"
   headline="Multi-Omics Factor Analysis"
   text=text
 %}
@@ -42,7 +42,7 @@ Technological advances enable increasingly time- and space-resolved molecular me
 
 {% capture text %}
 ## Causal inference & gene regulation
-The ability to combine molecular read-outs with targeted or non-targeted interventions opens up new opportunities to gain insights into regulatory mechanisms of key biological processes. We apply causal modelling and statistical invariance principles in order to pinpoint causal mechanisms on the molecular level and reveal common principles across biological contexts. A particular focus is the development of methods for CRISPR-based intervention studies with molecular read-outs.
+The ability to combine molecular read-outs with targeted or non-targeted interventions opens up new opportunities to gain insights into regulatory mechanisms of key biological processes. We apply causal modelling and statistical invariance principles in order to pinpoint causal mechanisms on the molecular level and reveal common principles across biological contexts. A particular focus is the development of methods for CRISPR-based intervention studies with molecular read-outs.
 
 {:.center}
 {% endcapture %}

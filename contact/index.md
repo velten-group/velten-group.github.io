@@ -25,11 +25,9 @@ We are located at COS (Centre for Organismal Studies) and IWR (Interdisciplinary
 
 Main Address:
 
-Im Neuenheimer Feld 230
-
-69120 Heidelberg
-
-Heidelberg 
+Im Neuenheimer Feld 230 <br>
+69120 Heidelberg <br>
+Heidelberg <br>
 
 [[map](https://www.google.com/maps/place/Centre+for+Organismal+Studies+(COS)/@49.4179397,8.6723157,17z/data=!3m2!4b1!5s0x4797c13015438091:0xdf1a142a749662df!4m6!3m5!1s0x4797c130155f3d01:0xb716ea9e2f064f2c!8m2!3d49.4179362!4d8.6748853!16s%2Fg%2F1hb_fdscs?entry=ttu)]
 
