@@ -12,14 +12,14 @@ Here you can find our recent publications.
 
 {% include section.html %}
 
-## Selected
+<!-- ## Selected
 
 {% include citation.html lookup="doi:10.15252/msb.20178124" style="rich" %}
 
-{% include section.html %}
+{% include section.html %} -->
 
 
-## All
+<!-- ## All -->
 
 {% include search-box.html %}
 
