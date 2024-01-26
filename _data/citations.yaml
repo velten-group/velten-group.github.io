@@ -1,247 +1,272 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1016/j.celrep.2020.108308
+  title: Developmental Gene Expression Differences between Humans and Mammalian Models
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - Margarida Cardoso-Moreira
+  - Ioannis Sarropoulos
+  - Britta Velten
+  - Matthew Mort
+  - David N. Cooper
+  - Wolfgang Huber
+  - Henrik Kaessmann
+  publisher: Cell Reports
+  date: '2020-10-01'
+  link: https://doi.org/ghvftz
+  orcid: 0000-0002-8397-3515
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.1186/s13059-020-02015-1
+  title: 'MOFA+: a statistical framework for comprehensive integration of multi-modal
+    single-cell data'
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
-  authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
-  authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vince P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
+  - Ricard Argelaguet
+  - Damien Arnol
+  - Danila Bredikhin
+  - Yonatan Deloro
+  - Britta Velten
+  - John C. Marioni
+  - Oliver Stegle
   publisher: Genome Biology
   date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  link: https://doi.org/ggvwsr
+  orcid: 0000-0002-8397-3515
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
+- id: doi:10.1038/s41375-020-0846-5
+  title: Survey of ex vivo drug combination effects in chronic lymphocytic leukemia
+    reveals synergistic drug effects and genetic dependencies
   authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
+  - Marina Lukas
+  - Britta Velten
+  - Leopold Sellner
+  - Katarzyna Tomska
+  - "Jennifer H\xFCellein"
+  - Tatjana Walther
+  - Lena Wagner
+  - Carolin Muley
+  - Bian Wu
+  - "Ma\u0142gorzata Ole\u015B"
+  - Sascha Dietrich
+  - Alexander Jethwa
+  - Hanibal Bohnenberger
+  - Junyan Lu
+  - Wolfgang Huber
+  - Thorsten Zenz
+  publisher: Leukemia
+  date: '2020-05-13'
+  link: https://doi.org/gtfzf6
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41467-019-13888-7
+  title: Mechanistic insights into transcription factor cooperativity and its impact
+    on protein-phenotype interactions
+  authors:
+  - Ignacio L. Ibarra
+  - Nele M. Hollmann
+  - Bernd Klaus
+  - Sandra Augsten
+  - Britta Velten
+  - Janosch Hennig
+  - Judith B. Zaugg
+  publisher: Nature Communications
+  date: '2020-01-08'
+  link: https://doi.org/grdrsz
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/837104
+  title: 'MOFA+: a probabilistic framework for comprehensive integration of structured
+    single-cell data'
+  authors:
+  - Ricard Argelaguet
+  - Damien Arnol
+  - Danila Bredikhin
+  - Yonatan Deloro
+  - Britta Velten
+  - John C Marioni
+  - Oliver Stegle
+  publisher: Cold Spring Harbor Laboratory
+  date: '2019-11-09'
+  link: https://doi.org/gghr25
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/biostatistics/kxz034
+  title: Adaptive penalization in high-dimensional regression and classification with
+    external covariates using variational Bayes
+  authors:
+  - Britta Velten
+  - Wolfgang Huber
+  publisher: Biostatistics
+  date: '2019-10-09'
+  link: https://doi.org/ggffvb
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/747782
+  title: Developmental gene expression differences between humans and mammalian models
+  authors:
+  - Margarida Cardoso-Moreira
+  - Britta Velten
+  - Matthew Mort
+  - David N. Cooper
+  - Wolfgang Huber
+  - Henrik Kaessmann
+  publisher: Cold Spring Harbor Laboratory
+  date: '2019-08-28'
+  link: https://doi.org/gkxg7m
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41586-019-1338-5
+  title: Gene expression across mammalian organ development
+  authors:
+  - Margarida Cardoso-Moreira
+  - Jean Halbert
+  - Delphine Valloton
+  - Britta Velten
+  - Chunyan Chen
+  - Yi Shao
+  - "Ang\xE9lica Liechti"
+  - "Kelly Ascen\xE7\xE3o"
+  - Coralie Rummel
+  - Svetlana Ovchinnikova
+  - Pavel V. Mazin
+  - Ioannis Xenarios
+  - Keith Harshman
+  - Matthew Mort
+  - David N. Cooper
+  - Carmen Sandi
+  - Michael J. Soares
+  - Paula G. Ferreira
+  - Sandra Afonso
+  - Miguel Carneiro
+  - James M. A. Turner
+  - John L. VandeBerg
+  - Amir Fallahshahroudi
+  - Per Jensen
+  - "R\xFCdiger Behr"
+  - Steven Lisgo
+  - Susan Lindsay
+  - Philipp Khaitovich
+  - Wolfgang Huber
+  - Julie Baker
+  - Simon Anders
+  - Yong E. Zhang
+  - Henrik Kaessmann
+  publisher: Nature
+  date: '2019-06-26'
+  link: https://doi.org/ggh6vd
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.15252/msb.20178124
+  title: "Multi\u2010Omics Factor Analysis\u2014a framework for unsupervised integration\
+    \ of multi\u2010omics data sets"
+  authors:
+  - Ricard Argelaguet
+  - Britta Velten
+  - Damien Arnol
+  - Sascha Dietrich
+  - Thorsten Zenz
+  - John C Marioni
+  - Florian Buettner
+  - Wolfgang Huber
+  - Oliver Stegle
+  publisher: Molecular Systems Biology
+  date: '1970-01-01'
+  link: https://doi.org/gdqq3f
+  orcid: 0000-0002-8397-3515
   plugin: sources.py
   file: sources.yaml
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  image: https://www.embopress.org/doi/full/10.15252/msb.20178124#msb178124-fig-0001
   buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
+  - type: MOFA webpage
+    link: https://biofam.github.io/MOFA2/index.html
   tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+  - multi-modal data integration
+  - probabilistic factor models
+- id: doi:10.1172/jci93801
+  title: Drug-perturbation-based stratification of blood cancer
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
+  - Sascha Dietrich
+  - "Ma\u0142gorzata Ole\u015B"
+  - Junyan Lu
+  - Leopold Sellner
+  - Simon Anders
+  - Britta Velten
+  - Bian Wu
+  - "Jennifer H\xFCllein"
+  - Michelle da Silva Liberio
+  - Tatjana Walther
+  - Lena Wagner
+  - Sophie Rabe
+  - Sonja Ghidelli-Disse
+  - Marcus Bantscheff
+  - "Andrzej K. Ole\u015B"
+  - "Miko\u0142aj S\u0142abicki"
+  - Andreas Mock
+  - Christopher C. Oakes
+  - Shihui Wang
+  - Sina Oppermann
+  - Marina Lukas
+  - Vladislav Kim
+  - Martin Sill
+  - Axel Benner
+  - Anna Jauch
+  - Lesley Ann Sutton
+  - Emma Young
+  - Richard Rosenquist
+  - Xiyang Liu
+  - Alexander Jethwa
+  - Kwang Seok Lee
+  - Joe Lewis
+  - Kerstin Putzker
+  - Christoph Lutz
+  - Davide Rossi
+  - Andriy Mokhir
+  - Thomas Oellerich
+  - Katja Zirlik
+  - Marco Herling
+  - Florence Nguyen-Khac
+  - Christoph Plass
+  - Emma Andersson
+  - Satu Mustjoki
+  - Christof von Kalle
+  - Anthony D. Ho
+  - Manfred Hensel
+  - "Jan D\xFCrig"
+  - Ingo Ringshausen
+  - Marc Zapatka
+  - Wolfgang Huber
+  - Thorsten Zenz
+  publisher: Journal of Clinical Investigation
+  date: '2017-12-11'
+  link: https://doi.org/gd8hpf
+  orcid: 0000-0002-8397-3515
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+- id: doi:10.1101/217554
+  title: Multi-Omics factor analysis - a framework for unsupervised integration of
+    multi-omic data sets
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
-  authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  plugin: sources.py
-  file: sources.yaml
+  - Ricard Argelaguet
+  - Britta Velten
+  - Damien Arnol
+  - Sascha Dietrich
+  - Thorsten Zenz
+  - John C. Marioni
+  - Wolfgang Huber
+  - Florian Buettner
+  - Oliver Stegle
+  publisher: Cold Spring Harbor Laboratory
+  date: '2017-11-10'
+  link: https://doi.org/gfvttf
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
