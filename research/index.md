@@ -2,26 +2,61 @@
 title: Research
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Our projects
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 {% include section.html %}
 
-## Highlighted
+## Current Projects
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% capture text %}
 
-{% include section.html %}
 
-## All
 
-{% include search-box.html %}
+{:.center}
+{% endcapture %}
 
-{% include search-info.html %}
+{%
+  include feature.html
+  image="images/research/multimodal"
+  headline="Multi-Omics Factor Analysis"
+  text=text
+%}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% capture text %}
+## Integrative data analysis
+Modern technologies enable researchers to study biological organisms and processes simultaneously on different molecular layers and in diverse biological contexts. To enable a joint analysis of the resulting data we develop methods for the supervised and unsupervised analysis of multi-modal omics data using probabilistic machine learning.  Our methods facilitate the joint analysis of data arising from multiple omics technologies and different biological contexts in a data-driven manner.
+<br>
+
+{:.center}
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/research/spatiotemporal.png"
+  headline="Spatio-temporal models"
+  text=text
+%}
+
+{% capture text %}
+## Spatio-temporal models
+Technological advances enable increasingly time- and space-resolved molecular measurements at scale. The resulting molecular read-outs with temporal and spatial resolution offer new opportunities to study the dynamic and contextual properties of a biological system and can uncover novel traits that would not be visible without the temporal or spatial context. To extract such insights from the data we develop methods for the identification of temporal and spatial patterns and their comparison across contexts.
+
+{:.center}
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/research/causal.png"
+  headline="Causal models"
+  text=text
+%}
+
+{% capture text %}
+## Causal inference & gene regulation
+The ability to combine molecular read-outs with targeted or non-targeted interventions opens up new opportunities to gain insights into regulatory mechanisms of key biological processes. We apply causal modelling and statistical invariance principles in order to pinpoint causal mechanisms on the molecular level and reveal common principles across biological contexts. A particular focus is the development of methods for CRISPR-based intervention studies with molecular read-outs.
+
+{:.center}
+{% endcapture %}
