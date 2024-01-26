@@ -14,7 +14,7 @@ Here you can find our recent publications.
 
 ## Selected
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="doi:10.15252/msb.20178124" style="rich" %}
 
 {% include section.html %}
 
