@@ -26,7 +26,7 @@ Main Address (COS): Im Neuenheimer Feld 230, 69120 Heidelberg, Heidelberg [[map]
 
 {%
   include feature.html
-  image=images/contact/HD.jpeg
+  image="images/contact/HD.jpeg"
   headline=""
   text=text
 %}
