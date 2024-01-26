@@ -14,13 +14,12 @@ We are a small interdisciplinary team of people with a shared passion for resear
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
 
+
 {% include section.html %}
 
-{% capture content %}
+## Alumni
 
-# Alumni
+{% include list.html  data="members"  component="name"  filters="role: alum" %}
 
-- XXX
-{% endcapture %}
 
 {% include grid.html style="square" content=content %}
