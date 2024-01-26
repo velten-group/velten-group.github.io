@@ -7,6 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-circle-nodes" %}Research
 
+Here we provide an overview of some of our ongoing research interests. Take a look at our [publications](publications) for completed projects.
+
 {% include section.html %}
 
 ## Current Projects
