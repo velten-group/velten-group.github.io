@@ -6,7 +6,7 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-newspaper" %}Publications
+# {% include icon.html icon="fa-solid fa-pen-to-square" %}Publications
 
 Here you can find our recent publications.
 

@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-circle-nodes" %}Research
 
-Here we provide an overview of some of our ongoing research interests. Take a look at our [publications](publications) for completed projects.
+Here we provide an overview of some of our ongoing research interests. Take a look at our [publications](https://velten-group.github.io/publications/) for completed projects.
 
 {% include section.html %}
 
