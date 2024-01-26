@@ -3,7 +3,7 @@
 # team member roles
 
 pi:
-  icon: fa-solid fa-magnifying-class
+  icon: fa-solid fa-magnifying-glass
   description: Principal Investigator
 
 postdoc:
