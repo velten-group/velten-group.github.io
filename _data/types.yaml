@@ -3,11 +3,11 @@
 # team member roles
 
 pi:
-  icon: fa-solid fa-microscope
+  icon: fa-solid fa-magnifying-class
   description: Principal Investigator
 
 postdoc:
-  icon: fa-solid fa-glasses
+  icon: fa-solid fa-laptop
   description: Postdoctoral Researcher
 
 phd:
@@ -21,6 +21,10 @@ undergrad:
 programmer:
   icon: fa-solid fa-code
   description: Programmer
+  
+admin:
+  icon: fa-solid fa-envelope-open
+  description: Admin
 
 mascot:
   icon: fa-solid fa-dog
