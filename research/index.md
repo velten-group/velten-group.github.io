@@ -17,7 +17,7 @@ Take a look at our [publications](https://velten-group.github.io/publications/) 
 
 {% capture text %}
 ## Integrative data analysis
-Modern technologies enable researchers to study biological organisms and processes simultaneously on different molecular layers and in diverse biological contexts. To enable a joint analysis of the resulting data we develop methods for the supervised and unsupervised analysis of multi-modal omics data using probabilistic machine learning.  Our methods facilitate the joint analysis of data arising from multiple omics technologies and different biological contexts in a data-driven manner.
+Modern technologies enable researchers to study biological organisms and processes simultaneously on different molecular layers and in diverse biological contexts. To enable a joint analysis of the resulting data we develop methods for the supervised and unsupervised analysis of multi-modal omics data using probabilistic machine learning. Our methods facilitate the joint analysis of data arising from multiple omics technologies and different biological contexts in a data-driven manner.
 
 
 {:.center}
@@ -46,7 +46,7 @@ Technological advances enable increasingly time- and space-resolved molecular me
 
 {% capture text %}
 ## Causal inference & gene regulation
-The ability to combine molecular read-outs with targeted or non-targeted interventions opens up new opportunities to gain insights into regulatory mechanisms of key biological processes. We apply causal modelling and statistical invariance principles in order to pinpoint causal mechanisms on the molecular level and reveal common principles across biological contexts. A particular focus is the development of methods for CRISPR-based intervention studies with molecular read-outs.
+The ability to combine molecular read-outs with targeted or non-targeted interventions opens up new opportunities to gain insights into regulatory mechanisms of key biological processes. We develop new approaches for causal modelling and use of statistical invariance principles in order to pinpoint causal mechanisms on the molecular level and reveal common principles across biological contexts.
 
 {:.center}
 {% endcapture %}
