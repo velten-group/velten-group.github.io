@@ -11,8 +11,6 @@ We are located at COS (Centre for Organismal Studies) and IWR (Interdisciplinary
 
 **Email:** britta.velten [at] cos.uni-heidelberg.de
 
-*Follow us on [Twitter](https://twitter.com/brittavelten)*
-
 
 {:.center}
 
