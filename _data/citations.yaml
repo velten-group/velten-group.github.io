@@ -182,8 +182,8 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: MOFA is a factor analysis model that provides a general framework for
+    the integration of multi-omic data sets in an unsupervised fashion
   image: https://www.embopress.org/doi/full/10.15252/msb.20178124#msb178124-fig-0001
   buttons:
   - type: MOFA webpage
