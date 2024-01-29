@@ -1,11 +1,29 @@
 - id: doi:10.15252/msb.20178124
-  # description: MOFA is a factor analysis model that provides a general framework for the integration of multi-omic data sets in an unsupervised fashion
+  description: MOFA is a factor analysis model that provides a general framework for the integration of multi-omic data sets in an unsupervised fashion
   image: https://www.embopress.org/cms/10.15252/msb.20178124/asset/38d5fe53-2af9-469a-a44c-399133a490df/assets/graphic/msb178124-abs-0001-m.png
-  # date: '2018-06-18'
-  # buttons:
-  #   - type: MOFA webpage
-  #     link: https://biofam.github.io/MOFA2/index.html
-  # tags:
-  #   - multi-modal data integration
-  #   - probabilistic factor models
-
+  date: '2018-06-18'
+  buttons:
+    - type: MOFA webpage
+      link: https://biofam.github.io/MOFA2/index.html
+  tags:
+    - multi-modal data integration
+    - probabilistic factor models
+- id: doi:10.1038/s41592-021-01343-9
+  description: MEFISTO is a unsupervised method to integrate multi-modal data with continuous structures among the samples, e.g. in spatial or temporal data.
+  image: https://biofam.github.io/MOFA2/images/mefisto.png
+  buttons:
+    - type: MEFISTO webpage
+      link: https://biofam.github.io/MOFA2/MEFISTO.html
+  tags:
+    - multi-modal data integration
+    - probabilistic factor models
+    - spatio-temporal models
+- id: doi:10.1093/bioinformatics/btad183
+  description: FISHFactor identifies spatial gene expression patterns at subcellular resolution
+  image: https://github.com/bioFAM/FISHFactor/raw/master/model.png
+  buttons:
+    - type: GitHub webpage
+      link: https://github.com/bioFAM/FISHFactor
+  tags:
+    - probabilistic factor models
+    - spatial models

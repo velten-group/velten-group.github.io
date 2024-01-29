@@ -14,6 +14,10 @@ Here you can find our recent publications.
 
 ## Selected
 
+{% include citation.html lookup="doi:10.1038/s41592-021-01343-9" style="rich" %}
+
+{% include citation.html lookup="doi:10.1093/bioinformatics/btad183" style="rich" %}
+
 {% include citation.html lookup="doi:10.15252/msb.20178124" style="rich" %}
 
 {% include section.html %}
