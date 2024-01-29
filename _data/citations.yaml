@@ -1,5 +1,113 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.7554/elife.78706
+  title: The changing career paths of PhDs and postdocs trained at EMBL
+  authors:
+  - Junyan Lu
+  - Britta Velten
+  - Bernd Klaus
+  - Mauricio Ramm
+  - Wolfgang Huber
+  - Rachel Coulthard-Graf
+  publisher: eLife
+  date: '2023-11-23'
+  link: https://doi.org/gtf6xn
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7554/elife.93161
+  title: Multicellular factor analysis of single-cell data for a tissue-centric understanding
+    of disease
+  authors:
+  - Ricardo Omar Ramirez Flores
+  - Jan David Lanzer
+  - Daniel Dimitrov
+  - Britta Velten
+  - Julio Saez-Rodriguez
+  publisher: eLife
+  date: '2023-11-22'
+  link: https://doi.org/gtf6xp
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41592-023-01992-y
+  title: Principles and challenges of modeling temporal and spatial omics data
+  authors:
+  - Britta Velten
+  - Oliver Stegle
+  publisher: Nature Methods
+  date: '2023-09-14'
+  link: https://doi.org/gsrmbd
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/bioinformatics/btad183
+  title: 'FISHFactor: a probabilistic factor model for spatial transcriptomics data
+    with subcellular resolution'
+  authors:
+  - Florin C Walter
+  - Oliver Stegle
+  - Britta Velten
+  publisher: Bioinformatics
+  date: '2023-04-11'
+  link: https://doi.org/gsxx6s
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41586-023-05869-0
+  title: Spatial multiomics map of trophoblast development in early pregnancy
+  authors:
+  - Anna Arutyunyan
+  - Kenny Roberts
+  - "Kevin Troul\xE9"
+  - Frederick C. K. Wong
+  - Megan A. Sheridan
+  - Ilia Kats
+  - Luz Garcia-Alonso
+  - Britta Velten
+  - Regina Hoo
+  - Elias R. Ruiz-Morales
+  - Carmen Sancho-Serra
+  - Jarrod Shilts
+  - Louis-Francois Handfield
+  - Luca Marconato
+  - Elizabeth Tuck
+  - Lucy Gardner
+  - Cecilia Icoresi Mazzeo
+  - Qian Li
+  - Iva Kelava
+  - Gavin J. Wright
+  - Elena Prigmore
+  - Sarah A. Teichmann
+  - Omer Ali Bayraktar
+  - Ashley Moffett
+  - Oliver Stegle
+  - Margherita Y. Turco
+  - Roser Vento-Tormo
+  publisher: Nature
+  date: '2023-03-29'
+  link: https://doi.org/gr2m4c
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41592-021-01343-9
+  title: Identifying temporal and spatial patterns of variation from multimodal data
+    using MEFISTO
+  authors:
+  - Britta Velten
+  - Jana M. Braunger
+  - Ricard Argelaguet
+  - Damien Arnol
+  - Jakob Wirbel
+  - Danila Bredikhin
+  - Georg Zeller
+  - Oliver Stegle
+  publisher: Nature Methods
+  date: '2022-01-13'
+  link: https://doi.org/gn47fg
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.celrep.2020.108308
   title: Developmental Gene Expression Differences between Humans and Mammalian Models
   authors:
@@ -76,23 +184,6 @@
   orcid: 0000-0002-8397-3515
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/837104
-  title: 'MOFA+: a probabilistic framework for comprehensive integration of structured
-    single-cell data'
-  authors:
-  - Ricard Argelaguet
-  - Damien Arnol
-  - Danila Bredikhin
-  - Yonatan Deloro
-  - Britta Velten
-  - John C Marioni
-  - Oliver Stegle
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-11-09'
-  link: https://doi.org/gghr25
-  orcid: 0000-0002-8397-3515
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1093/biostatistics/kxz034
   title: Adaptive penalization in high-dimensional regression and classification with
     external covariates using variational Bayes
@@ -102,21 +193,6 @@
   publisher: Biostatistics
   date: '2019-10-09'
   link: https://doi.org/ggffvb
-  orcid: 0000-0002-8397-3515
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/747782
-  title: Developmental gene expression differences between humans and mammalian models
-  authors:
-  - Margarida Cardoso-Moreira
-  - Britta Velten
-  - Matthew Mort
-  - David N. Cooper
-  - Wolfgang Huber
-  - Henrik Kaessmann
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-08-28'
-  link: https://doi.org/gkxg7m
   orcid: 0000-0002-8397-3515
   plugin: orcid.py
   file: orcid.yaml
@@ -248,25 +324,6 @@
   publisher: Journal of Clinical Investigation
   date: '2017-12-11'
   link: https://doi.org/gd8hpf
-  orcid: 0000-0002-8397-3515
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/217554
-  title: Multi-Omics factor analysis - a framework for unsupervised integration of
-    multi-omic data sets
-  authors:
-  - Ricard Argelaguet
-  - Britta Velten
-  - Damien Arnol
-  - Sascha Dietrich
-  - Thorsten Zenz
-  - John C. Marioni
-  - Wolfgang Huber
-  - Florian Buettner
-  - Oliver Stegle
-  publisher: Cold Spring Harbor Laboratory
-  date: '2017-11-10'
-  link: https://doi.org/gfvttf
   orcid: 0000-0002-8397-3515
   plugin: orcid.py
   file: orcid.yaml
