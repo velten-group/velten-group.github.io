@@ -252,20 +252,12 @@
   - Wolfgang Huber
   - Oliver Stegle
   publisher: Molecular Systems Biology
-  date: '2018-06-18'
+  date: '2018-06-01'
   link: https://doi.org/gdqq3f
   orcid: 0000-0002-8397-3515
   plugin: sources.py
   file: sources.yaml
-  description: MOFA is a factor analysis model that provides a general framework for
-    the integration of multi-omic data sets in an unsupervised fashion
   image: https://www.embopress.org/cms/10.15252/msb.20178124/asset/38d5fe53-2af9-469a-a44c-399133a490df/assets/graphic/msb178124-abs-0001-m.png
-  buttons:
-  - type: MOFA webpage
-    link: https://biofam.github.io/MOFA2/index.html
-  tags:
-  - multi-modal data integration
-  - probabilistic factor models
 - id: doi:10.1172/jci93801
   title: Drug-perturbation-based stratification of blood cancer
   authors:
