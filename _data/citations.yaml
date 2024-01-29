@@ -257,7 +257,6 @@
   orcid: 0000-0002-8397-3515
   plugin: sources.py
   file: sources.yaml
-  type: paper
   description: MOFA is a factor analysis model that provides a general framework for
     the integration of multi-omic data sets in an unsupervised fashion
   image: https://www.embopress.org/cms/10.15252/msb.20178124/asset/38d5fe53-2af9-469a-a44c-399133a490df/assets/graphic/msb178124-abs-0001-m.png
