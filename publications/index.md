@@ -12,6 +12,11 @@ Here you can find our recent publications.
 
 {% include section.html %}
 
+## Selected
+
+{% include citation.html lookup="doi:10.15252/msb.20178124" style="rich" %}
+
+{% include section.html %}
 
 ## All
 
