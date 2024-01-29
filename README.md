@@ -1,5 +1,5 @@
 
-# velten-group's Website
+# Our group website
 
 Visit **[velten-group.github.io](https://velten-group.github.io)** 🚀
 
