@@ -3,7 +3,7 @@ name: Britta Velten
 image: images/members/britta_velten.jpg
 role: pi
 aliases:
-  - B Velten
+  - Britta Velten
 links:
   twitter: brittavelten
   orcid: 0000-0002-8397-3515
