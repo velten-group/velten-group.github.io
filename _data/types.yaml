@@ -22,9 +22,9 @@ msc:
   icon: fa-solid fa-user-graduate
   description: MSc Student
 
-programmer:
+sysadmin:
   icon: fa-solid fa-code
-  description: Programmer
+  description: System Admin
   
 admin:
   icon: fa-solid fa-envelope-open
