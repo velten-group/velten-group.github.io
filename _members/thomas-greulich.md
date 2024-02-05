@@ -1,11 +1,13 @@
 ---
 name: Thomas Greulich
 image: images/members/thomas_greulich.jpg
-role: IT Sys-Admin
+role: sysadmin
 aliases:
   - Thomas
+  - Thomas G.
 links:
   email: thomas.greulich@cos.uni-heidelberg.de
+  phone: - 5673
   github: ThomasGehPunkt
 ---
 
