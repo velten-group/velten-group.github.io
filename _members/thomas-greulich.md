@@ -7,7 +7,6 @@ aliases:
   - Thomas G.
 links:
   email: thomas.greulich@cos.uni-heidelberg.de
-  phone: - 5673
   github: ThomasGehPunkt
 ---
 
