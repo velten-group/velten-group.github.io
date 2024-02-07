@@ -22,10 +22,9 @@ No current openings.
 
 ### PhD Students
 
-- [Causal inference from single cell data](https://jobrxiv.org/job/heidelberg-university-27778-postdoc-phd-position-causal-inference-from-single-cell-data/)
-- [Gene regulatory network inference from multi-omics data](https://jobrxiv.org/job/heidelberg-university-27778-phd-position-gene-regulatory-network-inference-from-multi-omics-data/)
-
 We regularly participate in the [ELLIS PhD Program Call](https://ellis.eu/) and calls by the Graduate School [HGS MathComp](https://mathcomp.uni-heidelberg.de/home).
+
+Apart from these calls, we currently do not have specific openings but if you are intersted in working with us feel free to reach out with a statement of your research interests and a CV to discuss opportunities.
 
 ### BSc and MSc students
 We are happy to host you for your BSc, MSc thesis or an internship in our lab. If you are interested, please contact Britta Velten with your CV, transcripts of record, a short statement outlining your research interests and why you want to join our lab, and the proposed duration of your stay.
