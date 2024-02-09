@@ -1,6 +1,6 @@
 ---
 name: Jan Sprengel
-image: images/members/wangjun_hu.jpg
+image: images/members/jan_sprengel.jpg
 role: msc
 aliases:
   - Jan Sprengel
