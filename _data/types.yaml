@@ -26,7 +26,7 @@ sysadmin:
   icon: fa-solid fa-code
   description: System Admin
   
-admin:
+adminassistent:
   icon: fa-solid fa-envelope-open
   description: Admin
 

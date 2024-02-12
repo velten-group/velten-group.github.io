@@ -19,7 +19,7 @@ Want to [join us](https://velten-group.github.io/join/)?
 {% include list.html data="members" component="portrait" filters="role: msc" %}
 {% include list.html data="members" component="portrait" filters="role: bsc" %}
 {% include list.html data="members" component="portrait" filters="role: sysadmin" %}
-{% include list.html data="members" component="portrait" filters="role: admin" %}
+{% include list.html data="members" component="portrait" filters="role: adminassistent" %}
 
 <!-- {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %} -->
 
