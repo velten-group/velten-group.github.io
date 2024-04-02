@@ -3,15 +3,15 @@ name: Nikolai Köhler
 image: images/members/nikolai_koehler.png
 role: postdoc
 aliases:
-	- Nikolai Köhler
-	- Nikolai Koehler
+ - Nikolai Köhler
+ - Nikolai Koehler
 links:
-	email: nikolai.koehler@cos.uni-heidelberg.de
-	twitter: nklkhlr
-	orcid: 0000-0002-5103-883X
-	github: nklkhlr
-	linkedin: nikolai-köhler-a79b3b300
-	home-page: https://github.io/nklkhlr
+ email: nikolai.koehler@cos.uni-heidelberg.de
+ twitter: nklkhlr
+ orcid: 0000-0002-5103-883X
+ github: nklkhlr
+ linkedin: nikolai-köhler-a79b3b300
+ home-page: https://github.io/nklkhlr
 ---
 
 Nikolai is a postdoctoral research in the Velten lab.
