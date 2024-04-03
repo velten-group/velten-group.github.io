@@ -11,7 +11,7 @@ links:
  orcid: 0000-0002-5103-883X
  github: nklkhlr
  linkedin: nikolai-köhler-a79b3b300
- home-page: https://github.io/nklkhlr
+ home-page: https://nklkhlr.github.io
 ---
 
 Nikolai is a postdoctoral research in the Velten lab.
