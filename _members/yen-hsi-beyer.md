@@ -1,6 +1,6 @@
 ---
 name: Yen-Hsi Beyer
-image: images/members/yen-hsi_beyer.png
+image: images/members/yen-hsi_beyer.jpg
 role: admin
 aliases:
   - Yen-Hsi Beyer
