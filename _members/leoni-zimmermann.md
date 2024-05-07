@@ -1,6 +1,6 @@
 ---
 name: Leoni Zimmermann
-image: images/members/leoni_zimmermann.jpg
+image: images/members/leoni_zimmermann.jpeg
 role: msc
 aliases:
   - Leoni Zimmermann
