@@ -20,6 +20,8 @@ Here you can find our recent publications.
 
 {% include citation.html lookup="doi:10.1093/bioinformatics/btad183" style="rich" %}
 
+{% include citation.html lookup="doi:10.1101/2024.05.06.592692" style="rich" %}
+
 
 {% include section.html %}
 

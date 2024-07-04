@@ -7,6 +7,8 @@ We are an interdisciplinary team of scientists developing statistical methods an
 
 Complex experimental designs and novel technologies enable researchers to study biological processes at unprecedented resolution and scale. We aim to translate and advance ideas from machine learning and statistics for the analysis of such data and make them available to the research community. Jointly with our collaborators we apply our methods to unravel the molecular underpinnings of organismal function, development, plasticity and diseases.
 
+Our research is funded by the [German Research Council (DFG)](https://gepris.dfg.de/gepris/projekt/530144743) and the [Emmy Noether programme](https://gepris.dfg.de/gepris/projekt/540147573?language=en).
+
 {% include section.html %}
 
 ## Highlights
