@@ -27,12 +27,3 @@
   tags:
     - probabilistic factor models
     - spatial models
-- id: doi:10.1101/2024.05.06.592692
-  description: crispat facilitates guide assignment in single cell CRISPR screens
-  image: https://github.com/velten-group/.github/blob/main/figures/crispat.png
-  buttons:
-    - type: GitHub webpage
-      link: https://github.com/velten-group/crispat
-  tags:
-    - single cell 
-    - CRISPR
