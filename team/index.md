@@ -29,3 +29,4 @@ Want to [join us](https://velten-group.github.io/join/)?
 ## Alumni
 
 - Luna Račić, MSc Student
+- Jakob Then, BSc Student
