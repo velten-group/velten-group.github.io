@@ -1,7 +1,7 @@
 ---
 name: Julian Rebentisch
 image: images/members/julian_rebentisch.png
-role: M.Sc. student
+role: msc
 aliases:
   - Julian Rebentisch
 links:
