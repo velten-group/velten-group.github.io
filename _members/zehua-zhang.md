@@ -1,6 +1,6 @@
 ---
 name: Zehua Zhang
-image: images/members/zehua_zhang.png
+image: images/members/zehua_zhang.jpg
 role: phd
   
 links:
