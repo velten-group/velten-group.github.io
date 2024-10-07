@@ -25,12 +25,12 @@ jobs:
 
       - name: Get Pages url
         id: pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v3
         with:
           enablement: false
 
       - name: Checkout branch contents
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # update link to site in readme
       - name: Update readme
@@ -53,7 +53,7 @@ jobs:
 
       - name: Check if readme changed
         id: changed
-        uses: tj-actions/verify-changed-files@v13
+        uses: tj-actions/verify-changed-files@v20
         with:
           files: |
             README.md
