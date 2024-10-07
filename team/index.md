@@ -31,3 +31,4 @@ Want to [join us](https://velten-group.github.io/join/)?
 - Luna Račić, MSc Student
 - Jakob Then, BSc Student
 - Leoni Zimmermann, MSc Student
+- Julian Rebentisch, MSc Student
