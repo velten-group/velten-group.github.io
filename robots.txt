@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://velten-group.org/sitemap.xml
