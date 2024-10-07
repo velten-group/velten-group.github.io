@@ -24,7 +24,6 @@ jobs:
 
       - name: Get Pages url
         id: pages
-<<<<<<< HEAD
         uses: actions/configure-pages@v4
 
       - name: Checkout branch contents
@@ -33,15 +32,7 @@ jobs:
       # for debugging
       - if: runner.debug == '1'
         uses: mxschmitt/action-tmate@v3
-=======
-        uses: actions/configure-pages@v3
-        with:
-          enablement: false
-
-      - name: Checkout branch contents
-        uses: actions/checkout@v4
->>>>>>> 862f51cc3b13171bc6ff45eab7e6d1224ede595f
-
+        
       # update link to site in readme
       - name: Update readme
         uses: actions/github-script@v7
@@ -63,11 +54,7 @@ jobs:
 
       - name: Check if readme changed
         id: changed
-<<<<<<< HEAD
-        uses: tj-actions/verify-changed-files@v18
-=======
         uses: tj-actions/verify-changed-files@v20
->>>>>>> 862f51cc3b13171bc6ff45eab7e6d1224ede595f
         with:
           files: |
             README.md
