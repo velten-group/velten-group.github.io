@@ -1,5 +1,6 @@
 ---
 name: Stijn Hawinkel
+image: images/members/stijn_hawinkel.jpg
 role: Visiting postdoc
 links:
   email: ek353@uni-heidelberg.de
