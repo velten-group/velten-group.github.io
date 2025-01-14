@@ -104,9 +104,9 @@ twitter:
   tooltip: Twitter
   link: https://twitter.com/$VALUE
 
-# added by TG on 12.01.2025
+# added by TG on 12.01.2025 (fa-bluesky not exist now thats why still fa-twitter)
 bluesky:
-  icon: fa-brands fa-bluesky
+  icon: fa-brands fa-twitter
   text: Bluesky
   tooltip: Bluesky
   link: https://bsky.app/profile/$VALUE.bsky.social 
