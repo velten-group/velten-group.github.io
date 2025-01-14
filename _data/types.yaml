@@ -104,6 +104,13 @@ twitter:
   tooltip: Twitter
   link: https://twitter.com/$VALUE
 
+# added by TG on 12.01.2025
+bluesky:
+  icon: fa-brands fa-bluesky
+  text: Bluesky
+  tooltip: Bluesky
+  link: https://bsky.app/profile/$VALUE.bsky.social 
+
 facebook:
   icon: fa-brands fa-facebook
   text: Facebook
