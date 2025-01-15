@@ -5,7 +5,7 @@ role: pi
 aliases:
   - Britta Velten
 links:
-  twitter: brittavelten
+  bluesky: brittavelten
   orcid: 0000-0002-8397-3515
   github: bv2
 ---
