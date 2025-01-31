@@ -16,6 +16,8 @@ In general, you should bring a strong track record in a quantitative field (incl
 # Open Positions
 
 
+We are currenlty looking for a scientific programmer to join our team. See [here](https://jobrxiv.org/job/heidelberg-university-27778-scientific-programmer/) for details.
+
 ### Postdocs
 
 No current openings.
