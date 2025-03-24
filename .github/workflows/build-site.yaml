@@ -17,17 +17,29 @@ permissions:
 
 jobs:
   build-site:
+<<<<<<< HEAD
     runs-on: ubuntu-22.04
 
     steps:
       # for debugging
       - uses: crazy-max/ghaction-dump-context@v2
+=======
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Debug dump
+        uses: crazy-max/ghaction-dump-context@v2
+>>>>>>> template/main
 
       - name: Checkout branch contents
         uses: actions/checkout@v4
 
       - name: Install Ruby packages
+<<<<<<< HEAD
         uses: ruby/setup-ruby@v1.172.0
+=======
+        uses: ruby/setup-ruby@v1
+>>>>>>> template/main
         with:
           ruby-version: "3.1"
           bundler-cache: true
@@ -36,8 +48,13 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
+<<<<<<< HEAD
       # for debugging
       - if: runner.debug == '1'
+=======
+      - name: SSH debug
+        if: runner.debug == '1'
+>>>>>>> template/main
         uses: mxschmitt/action-tmate@v3
 
       - name: Set root url

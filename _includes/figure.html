@@ -1,6 +1,7 @@
 <figure class="figure">
   <a
     {% if include.link %}
+<<<<<<< HEAD
       href="{{ include.link | relative_url }}"
     {% endif %}
     class="figure-image"
@@ -8,11 +9,24 @@
   >
     <img
       src="{{ include.image | relative_url }}"
+=======
+      href="{{ include.link | relative_url | uri_escape }}"
+    {% endif %}
+    class="figure-image"
+    aria-label="{{ include.caption | default: "figure link" | regex_strip }}"
+  >
+    <img
+      src="{{ include.image | relative_url | uri_escape }}"
+>>>>>>> template/main
       style="
         width: {{ include.width | default: "auto" }};
         max-height: {{ include.height | default: "unset" }};
       "
+<<<<<<< HEAD
       alt="{{ include.caption | default: "figure image" }}"
+=======
+      alt="{{ include.caption | default: "figure image" | regex_strip }}"
+>>>>>>> template/main
       loading="lazy"
       {% include fallback.html %}
     >

@@ -7,10 +7,18 @@ blockquote {
   border-left: solid 4px var(--light-gray);
 }
 
+<<<<<<< HEAD
 blockquote > *:first-child {
   margin-top: 0;
 }
 
 blockquote > *:last-child {
+=======
+blockquote > :first-child {
+  margin-top: 0;
+}
+
+blockquote > :last-child {
+>>>>>>> template/main
   margin-bottom: 0;
 }

@@ -1,4 +1,5 @@
 # site properties and page defaults
+<<<<<<< HEAD
 title: Velten Group
 subtitle: Multi-factorial data analysis & machine learning for the life sciences
 description: We are an interdisciplinary team of scientists located at Heidelberg University developing statistical methods and machine learning approaches to move from molecular data to biological insight
@@ -12,6 +13,23 @@ links:
   google-scholar: sJ2lkaAAAAAJ&hl
   github: velten-group
   bluesky: brittavelten
+=======
+title: Lab Website Template
+subtitle: by the Greene Lab
+description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
+header: images/background.jpg
+footer: images/background.jpg
+proofer: false
+
+# site social media and other links
+links:
+  email: contact@your-lab.com
+  orcid: 0000-0001-8713-9213
+  google-scholar: ETJoidYAAAAJ
+  github: your-lab
+  twitter: YourLabHandle
+  youtube: YourLabChannel
+>>>>>>> template/main
 
 ### jekyll settings
 

@@ -2,18 +2,28 @@
 
 # team member roles
 
+<<<<<<< HEAD
 pi:
   icon: fa-solid fa-magnifying-glass
   description: Principal Investigator
 
 postdoc:
   icon: fa-solid fa-laptop
+=======
+principal-investigator:
+  icon: fa-solid fa-microscope
+  description: Principal Investigator
+
+postdoc:
+  icon: fa-solid fa-glasses
+>>>>>>> template/main
   description: Postdoctoral Researcher
 
 phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
 
+<<<<<<< HEAD
 bsc:
   icon: fa-solid fa-user-graduate
   description: BSc Student
@@ -29,6 +39,15 @@ sysadmin:
 adminassistent:
   icon: fa-solid fa-envelope-open
   description: Admin
+=======
+undergrad:
+  icon: fa-solid fa-user-graduate
+  description: Undergraduate Student
+
+programmer:
+  icon: fa-solid fa-code
+  description: Programmer
+>>>>>>> template/main
 
 mascot:
   icon: fa-solid fa-dog
@@ -104,12 +123,20 @@ twitter:
   tooltip: Twitter
   link: https://twitter.com/$VALUE
 
+<<<<<<< HEAD
 # added by TG on 12.01.2025 (fa-bluesky not exist now thats why still fa-twitter)
 bluesky:
   icon: fa-brands fa-twitter
   text: Bluesky
   tooltip: Bluesky
   link: https://bsky.app/profile/$VALUE.bsky.social 
+=======
+bluesky:
+  icon: fa-brands fa-bluesky
+  text: Bluesky
+  tooltip: Bluesky
+  link: https://bsky.app/profile/$VALUE
+>>>>>>> template/main
 
 facebook:
   icon: fa-brands fa-facebook

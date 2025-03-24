@@ -5,6 +5,7 @@
 <link href="{{ googlefonts }}" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
+<<<<<<< HEAD
 {% assign fontawesome = "https://use.fontawesome.com/releases/v6.3.0/css/all.css" %}
 <link
   href="{{ fontawesome }}"
@@ -12,6 +13,15 @@
   as="style"
   onload="this.onload = null; this.rel = 'stylesheet';"
 >
+=======
+{% assign fontawesome = "https://use.fontawesome.com/releases/v6.7.0/css/all.css" %}
+<link
+  href="{{ fontawesome }}"
+  rel="stylesheet"
+  media="none"
+  onload="this.removeAttribute('media'); this.onload = null;"
+/>
+>>>>>>> template/main
 <noscript>
   <link href="{{ fontawesome }}" rel="stylesheet">
 </noscript>

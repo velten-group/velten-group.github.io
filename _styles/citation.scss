@@ -4,9 +4,19 @@
 $thumb-size: 180px;
 $wrap: 800px;
 
+<<<<<<< HEAD
 .citation {
   display: flex;
   margin: 15px 0;
+=======
+.citation-container {
+  container-type: inline-size;
+}
+
+.citation {
+  display: flex;
+  margin: 20px 0;
+>>>>>>> template/main
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
@@ -32,7 +42,11 @@ $wrap: 800px;
   position: relative;
   display: inline-flex;
   flex-wrap: wrap;
+<<<<<<< HEAD
   gap: 15px;
+=======
+  gap: 10px;
+>>>>>>> template/main
   max-width: 100%;
   height: min-content;
   padding: 20px;
@@ -47,7 +61,10 @@ $wrap: 800px;
 .citation-details,
 .citation-description {
   width: 100%;
+<<<<<<< HEAD
   line-height: calc(var(--spacing) - 0.4);
+=======
+>>>>>>> template/main
 }
 
 .citation-title {
@@ -64,6 +81,13 @@ $wrap: 800px;
   z-index: -1;
 }
 
+<<<<<<< HEAD
+=======
+.citation-publisher {
+  text-transform: capitalize;
+}
+
+>>>>>>> template/main
 .citation-description {
   color: var(--gray);
 }
@@ -84,7 +108,11 @@ $wrap: 800px;
   margin: 0;
 }
 
+<<<<<<< HEAD
 @media (max-width: $wrap) {
+=======
+@container (max-width: #{$wrap}) {
+>>>>>>> template/main
   .citation {
     flex-direction: column;
   }

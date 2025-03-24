@@ -1,19 +1,38 @@
 {% assign tags = include.tags
   | object_items
   | join: ","
+<<<<<<< HEAD
   | split: ","
   | array_filter
   | uniq
 %}
 {% assign link = include.link | default: page.dir | absolute_url %}
+=======
+  | downcase
+  | split: ","
+  | array_filter
+  | join: ","
+  | regex_replace: "\s+", "-"
+  | split: ","
+  | uniq
+%}
+{% assign link = include.link | default: page.dir %}
+>>>>>>> template/main
 {% if tags.size > 0 or include.repo %}
   <div
     class="tags"
     {% if include.repo %}
+<<<<<<< HEAD
       data-repo="{{ include.repo }}"
     {% endif %}
     {% if link %}
       data-link="{{ link }}"
+=======
+      data-repo="{{ include.repo | xml_escape }}"
+    {% endif %}
+    {% if link %}
+      data-link="{{ link | relative_url | xml_escape }}"
+>>>>>>> template/main
     {% endif %}
   >
     {% for tag in tags %}
