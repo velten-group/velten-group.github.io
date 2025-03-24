@@ -4,7 +4,11 @@ module Jekyll
   module HashFilters
     # merge main hash with another hash of defaults
     def hash_default(hash, defaults)
+<<<<<<< HEAD
       if not hash.is_a?(Hash) or not defaults.is_a?(Hash)
+=======
+      if not defaults.is_a?(Hash)
+>>>>>>> template/main
         return hash
       end
       defaults.each do |key, value|
