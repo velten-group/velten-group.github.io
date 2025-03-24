@@ -3,39 +3,25 @@
 
 // colors
 [data-dark="false"] {
-<<<<<<< HEAD
-  --primary: #0ea5e9;
-=======
   --primary: #0795d9;
->>>>>>> template/main
   --secondary: #7dd3fc;
   --text: #000000;
   --background: #ffffff;
   --background-alt: #fafafa;
   --light-gray: #e0e0e0;
   --gray: #808080;
-<<<<<<< HEAD
-  --overlay: #00000020;
-}
-[data-dark="true"] {
-  --primary: #0ea5e9;
-=======
   --dark-gray: #404040;
   --overlay: #00000020;
 }
 [data-dark="true"] {
   --primary: #0795d9;
->>>>>>> template/main
   --secondary: #075985;
   --text: #ffffff;
   --background: #181818;
   --background-alt: #1c1c1c;
   --light-gray: #404040;
   --gray: #808080;
-<<<<<<< HEAD
-=======
   --dark-gray: #b0b0b0;
->>>>>>> template/main
   --overlay: #ffffff10;
 }
 
@@ -47,10 +33,6 @@
   --code: "Roboto Mono", monospace;
 
   // font sizes
-<<<<<<< HEAD
-  --medium: 1rem;
-=======
->>>>>>> template/main
   --large: 1.2rem;
   --xl: 1.4rem;
   --xxl: 1.6rem;
@@ -63,16 +45,10 @@
 
   // text line spacing
   --spacing: 2;
-<<<<<<< HEAD
-=======
   --compact: 1.5;
->>>>>>> template/main
 
   // effects
   --rounded: 3px;
   --shadow: 0 0 10px 0 var(--overlay);
-<<<<<<< HEAD
-=======
   --transition: 0.2s ease;
->>>>>>> template/main
 }

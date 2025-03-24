@@ -2,16 +2,6 @@
 <div class="card" data-style="{{ include.style }}">
   <a
     {% if include.link %}
-<<<<<<< HEAD
-      href="{{ include.link | relative_url }}"
-    {% endif %}
-    aria-label="{{ include.title | default: "card link" }}"
-    class="card-image"
-  >
-    <img
-      src="{{ include.image | relative_url }}"
-      alt="{{ include.title | default: "card image" }}"
-=======
       href="{{ include.link | relative_url | uri_escape }}"
     {% endif %}
     aria-label="{{ include.title | default: "card link" | regex_strip }}"
@@ -20,7 +10,6 @@
     <img
       src="{{ include.image | relative_url | uri_escape }}"
       alt="{{ include.title | default: "card image" | regex_strip }}"
->>>>>>> template/main
       loading="lazy"
       {% include fallback.html %}
     >
@@ -30,17 +19,10 @@
     {% if include.title %}
       <a
         {% if include.link %}
-<<<<<<< HEAD
-          href="{{ include.link | relative_url }}"
-        {% endif %}
-        {% if include.tooltip %}
-          data-tooltip="{{ include.tooltip }}"
-=======
           href="{{ include.link | relative_url | uri_escape }}"
         {% endif %}
         {% if include.tooltip %}
           data-tooltip="{{ include.tooltip | xml_escape }}"
->>>>>>> template/main
         {% endif %}
         class="card-title"
       >
@@ -53,13 +35,9 @@
     {% endif %}
 
     {% if include.description %}
-<<<<<<< HEAD
-      {{ include.description | markdownify }}
-=======
       <p>
         {{ include.description | markdownify | remove: "<p>" | remove: "</p>" }}
       </p>
->>>>>>> template/main
     {% endif %}
 
     {% if include.tags or include.repo %}

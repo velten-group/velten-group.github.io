@@ -3,11 +3,7 @@
 
 a {
   color: var(--primary);
-<<<<<<< HEAD
-  transition-property: color;
-=======
   transition: color var(--transition);
->>>>>>> template/main
   overflow-wrap: break-word;
 }
 

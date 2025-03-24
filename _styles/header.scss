@@ -43,18 +43,11 @@ header a {
 }
 
 .logo > * {
-<<<<<<< HEAD
-  height: 100%;
-}
-
-.title {
-=======
   width: unset;
   height: 100%;
 }
 
 .title-text {
->>>>>>> template/main
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
@@ -65,21 +58,11 @@ header a {
   text-align: left;
 }
 
-<<<<<<< HEAD
-// main title
-.title > *:first-child {
-  font-size: var(--large);
-}
-
-// subtitle
-.title > *:last-child {
-=======
 .title {
   font-size: var(--large);
 }
 
 .subtitle {
->>>>>>> template/main
   opacity: 0.65;
   font-weight: var(--thin);
 }
@@ -91,14 +74,8 @@ header a {
   height: 30px;
   margin: 0;
   color: var(--text);
-<<<<<<< HEAD
-  -webkit-appearance: none;
-  appearance: none;
-  transition-property: background;
-=======
   appearance: none;
   transition: background var(--transition);
->>>>>>> template/main
 }
 
 .nav-toggle:after {
@@ -172,34 +149,20 @@ header[data-big] {
 
   .logo {
     height: $logo-big;
-<<<<<<< HEAD
-  }
-
-  .title {
-=======
     flex-shrink: 0;
   }
 
   .title-text {
->>>>>>> template/main
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-<<<<<<< HEAD
-  .title > *:first-child {
-    font-size: var(--xxl);
-  }
-
-  .title > *:last-child {
-=======
   .title {
     font-size: var(--xxl);
   }
 
   .subtitle {
->>>>>>> template/main
     font-size: var(--large);
   }
 }

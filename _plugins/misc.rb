@@ -1,8 +1,5 @@
 require 'liquid'
-<<<<<<< HEAD
-=======
 require 'html-proofer'
->>>>>>> template/main
 
 module Jekyll
   module MiscFilters
@@ -18,28 +15,6 @@ module Jekyll
       elsif object.is_a?(Array)
         return object
       end
-<<<<<<< HEAD
-      return []
-    end
-
-    # filter a list of hashes by comma-sep'd field:value pairs
-    def data_filter(data, filters)
-      if not data.is_a?(Array) or not filters.is_a?(String)
-        return data
-      end
-      data = data.clone
-      for filter in array_filter(filters.split(","))
-        key, value = array_filter(filter.split(":"))
-        # find unspecified fields
-        if value == nil
-          data.select!{|d| d[key] == nil}
-        # find fields that match regex
-        elsif value.is_a?(String)
-          data.select!{|d| d[key].to_s =~ /#{value}/m}
-        end
-      end
-      return data
-=======
       return object
     end
 
@@ -90,7 +65,6 @@ module Jekyll
         # keep/discard item
         keep
       }
->>>>>>> template/main
     end
 
     # from css text, find font family definitions and construct google font url
@@ -111,8 +85,6 @@ module Jekyll
       return url
     end
   end
-<<<<<<< HEAD
-=======
 
   # based on https://github.com/episource/jekyll-html-proofer
   module HtmlProofer
@@ -140,7 +112,6 @@ module Jekyll
       end
     end
   end
->>>>>>> template/main
 end
 
 Liquid::Template.register_filter(Jekyll::MiscFilters)

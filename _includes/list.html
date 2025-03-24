@@ -2,11 +2,7 @@
 {% assign data = site.data[include.data]
   | default: site[include.data]
   | default: emptyarray
-<<<<<<< HEAD
-  | data_filter: include.filters
-=======
   | data_filter: include.filter
->>>>>>> template/main
 %}
 
 {% assign years = data
@@ -28,10 +24,7 @@
 
     {%
       include {{ include.component | append: ".html" }}
-<<<<<<< HEAD
-=======
       affiliation=d.affiliation
->>>>>>> template/main
       author=d.author
       authors=d.authors
       buttons=d.buttons
