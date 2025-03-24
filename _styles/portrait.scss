@@ -11,10 +11,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-<<<<<<< HEAD
-  gap: 20px;
-=======
->>>>>>> template/main
   margin: 20px;
   width: 175px;
   max-width: calc(100% - 20px - 20px);
@@ -32,10 +28,6 @@
   text-align: left;
 }
 
-<<<<<<< HEAD
-.portrait-image {
-  width: 100%;
-=======
 .portrait .icon {
   position: absolute;
   left: 0;
@@ -63,7 +55,6 @@
 .portrait-image {
   width: 100%;
   margin-bottom: 20px;
->>>>>>> template/main
   aspect-ratio: 1 / 1;
   border-radius: 999px;
   object-fit: cover;
@@ -72,20 +63,7 @@
 
 .portrait[data-style="tiny"] .portrait-image {
   width: 50px;
-<<<<<<< HEAD
-}
-
-.portrait[data-style="tiny"] .portrait-role {
-  display: none;
-}
-
-.portrait-text {
-  display: flex;
-  flex-direction: column;
-  line-height: calc(var(--spacing) - 0.4);
-=======
   margin: 0;
->>>>>>> template/main
 }
 
 .portrait-name {
@@ -93,30 +71,9 @@
   font-weight: var(--semi-bold);
 }
 
-<<<<<<< HEAD
-.portrait-role .icon {
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20%;
-  aspect-ratio: 1 / 1;
-  border-radius: 999px;
-  background: var(--background);
-  box-shadow: var(--shadow);
-  transform: translate(14%, 14%);
-}
-
-.portrait[data-style="small"] .portrait-role .icon {
-  left: -2px;
-  top: -2px;
-=======
 .portrait[data-style="tiny"] {
   .portrait-description,
   .portrait-affiliation {
     display: none;
   }
->>>>>>> template/main
 }

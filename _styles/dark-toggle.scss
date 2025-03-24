@@ -8,14 +8,8 @@
   margin: 0;
   border-radius: 999px;
   background: var(--primary);
-<<<<<<< HEAD
-  -webkit-appearance: none;
-  appearance: none;
-  transition-property: background;
-=======
   appearance: none;
   transition: background var(--transition);
->>>>>>> template/main
 }
 
 .dark-toggle:after {
@@ -28,11 +22,7 @@
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   transform: translate(-50%, -50%);
-<<<<<<< HEAD
-  transition: left 0.2s;
-=======
   transition: left var(--transition);
->>>>>>> template/main
 }
 
 .dark-toggle:checked:after {

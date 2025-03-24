@@ -1,17 +1,9 @@
-<<<<<<< HEAD
-{% assign image = page.footer | default: site.footer | relative_url %}
-=======
 {% assign image = page.footer | default: site.footer %}
->>>>>>> template/main
 {% assign dark = page.footer-dark | is_nil: site.footer-dark | is_nil: true %}
 
 <footer
   class="background"
-<<<<<<< HEAD
-  style="--image: url('{{ image }}')"
-=======
   style="--image: url('{{ image | relative_url | uri_escape }}')"
->>>>>>> template/main
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}

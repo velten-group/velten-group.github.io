@@ -2,11 +2,7 @@
 ---
 
 .tags {
-<<<<<<< HEAD
-  display: inline-flex;
-=======
   display: flex;
->>>>>>> template/main
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -26,11 +22,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-<<<<<<< HEAD
-  transition-property: background, color;
-=======
   transition: background var(--transition), color var(--transition);
->>>>>>> template/main
 }
 
 .tag:hover {

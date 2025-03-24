@@ -1,10 +1,7 @@
 import json
 from urllib.request import Request, urlopen
 from util import *
-<<<<<<< HEAD
-=======
 from manubot.cite.handlers import prefix_to_handler as manubot_prefixes
->>>>>>> template/main
 
 
 def main(entry):
@@ -39,18 +36,6 @@ def main(entry):
     # go through response structure and pull out ids e.g. doi:1234/56789
     for work in response:
         # get list of ids
-<<<<<<< HEAD
-        ids = get_safe(work, "external-ids.external-id", [])
-        for summary in get_safe(work, "work-summary", []):
-            ids = ids + get_safe(summary, "external-ids.external-id", [])
-
-        # prefer doi id type, or fallback to first id
-        _id = next(
-            (id for id in ids if get_safe(id, "external-id-type", "") == "doi"),
-            ids[0] if len(ids) > 0 else {},
-        )
-
-=======
         ids = []
         for summary in get_safe(work, "work-summary", []):
             ids = ids + get_safe(summary, "external-ids.external-id", [])
@@ -69,7 +54,6 @@ def main(entry):
         if _id == None:
             continue
 
->>>>>>> template/main
         # get id and id-type from response
         id_type = get_safe(_id, "external-id-type", "")
         id_value = get_safe(_id, "external-id-value", "")
@@ -77,28 +61,11 @@ def main(entry):
         # create source
         source = {"id": f"{id_type}:{id_value}"}
 
-<<<<<<< HEAD
-        # if not a doi, Manubot likely can't cite, so keep citation details
-        if id_type != "doi":
-            # get summaries
-            summaries = get_safe(work, "work-summary", [])
-
-            # sort summary entries by most recent
-            summaries = sorted(
-                summaries,
-                key=lambda summary: (get_safe(summary, "last-modified-date.value", 0))
-                or get_safe(summary, "created-date.value", 0)
-                or 0,
-                reverse=True,
-            )
-
-=======
         # if not an id type that Manubot can cite, keep citation details
         if id_type not in manubot_prefixes:
             # get summaries
             summaries = get_safe(work, "work-summary", [])
 
->>>>>>> template/main
             # get first summary with defined sub-value
             def first(get_func):
                 return next(
