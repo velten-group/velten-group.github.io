@@ -28,7 +28,8 @@ Want to [join us](https://velten-group.github.io/join/)?
 
 ## Alumni
 
-- Luna Račić, MSc Student
+- Luna Račić, Research Inter
 - Jakob Then, BSc Student
 - Leoni Zimmermann, MSc Student
-- Julian Rebentisch, MSc Student
+- Julian Rebentisch, Research Inter
+- Joshua Leo, Research Inter
