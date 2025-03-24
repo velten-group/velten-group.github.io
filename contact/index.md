@@ -10,6 +10,7 @@ nav:
 We are located at COS (Centre for Organismal Studies) and IWR (Interdisciplinary Center for Scientific Computing) of Heidelberg University.
 
 **Email:** britta.velten [at] cos.uni-heidelberg.de
+**Email (office):** yen-hsi.beyer [at] cos.uni-heidelberg.de
 
 
 {:.center}
