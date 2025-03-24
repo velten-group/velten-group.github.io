@@ -1,5 +1,22 @@
 <div class="post-info">
   {% if include.author %}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    {% assign member = site.members
+      | where_exp: "member", "member.slug == include.author"
+      | first
+    %}
+    {% if member %}
+      {% include portrait.html lookup=include.author style="tiny" %}
+    {% else %}
+      <span data-tooltip="Author">
+        {% include icon.html icon="fa-solid fa-feather-pointed" %}
+        <span>{{ include.author }}</span>
+      </span>
+    {% endif %}
+=======
+>>>>>>> main
     {% assign authors = include.author
       | join: ","
       | downcase
@@ -20,6 +37,10 @@
         </span>
       {% endif %}
     {% endfor %}
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
   {% endif %}
 
   {% assign published = include.published | date: "%B %d, %Y" %}

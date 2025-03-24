@@ -4,6 +4,22 @@
 .anchor {
   display: inline-block;
   position: relative;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  width: 0;
+  margin: 0;
+  left: 0.5em;
+  color: var(--primary) !important;
+  opacity: 0;
+  font-size: 0.75em;
+  text-decoration: none;
+  transition-property: opacity, color;
+}
+
+*:hover > .anchor,
+=======
+>>>>>>> main
   top: -0.15em;
   left: 0.5em;
   width: 0;
@@ -16,6 +32,10 @@
 }
 
 :hover > .anchor,
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
 .anchor:focus {
   opacity: 1;
 }

@@ -7,13 +7,29 @@
       class="button"
       href="{{ button.link | replace: "$LINK", button.link | relative_url }}"
       {% if button.tooltip %}
+<<<<<<< HEAD
         data-tooltip="{{ button.tooltip | xml_escape }}"
+=======
+<<<<<<< HEAD
+        data-tooltip="{{ button.tooltip }}"
+=======
+        data-tooltip="{{ button.tooltip | xml_escape }}"
+>>>>>>> template/main
+>>>>>>> main
       {% endif %}
       data-style="{{ include.style }}"
       {% if include.flip %}
         data-flip
       {% endif %}
+<<<<<<< HEAD
       aria-label="{{ button.tooltip | default: button.icon | default: "button" | regex_strip }}"
+=======
+<<<<<<< HEAD
+      aria-label="{{ button.tooltip | default: button.icon | default: "button" }}"
+=======
+      aria-label="{{ button.tooltip | default: button.icon | default: "button" | regex_strip }}"
+>>>>>>> template/main
+>>>>>>> main
     >
       {% include icon.html icon=button.icon %}
       {% if button.text and button.text != "" %}

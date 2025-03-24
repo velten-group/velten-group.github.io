@@ -7,7 +7,15 @@ import json
 import yaml
 from yaml.loader import SafeLoader
 from pathlib import Path
+<<<<<<< HEAD
 from datetime import date, datetime
+=======
+<<<<<<< HEAD
+from datetime import datetime
+=======
+from datetime import date, datetime
+>>>>>>> template/main
+>>>>>>> main
 from rich import print
 from diskcache import Cache
 
@@ -39,11 +47,33 @@ def log(message="\n--------------------\n", indent=0, level="", newline=True):
     log to terminal, color determined by indent and level
     """
 
+<<<<<<< HEAD
     colors = {
+=======
+<<<<<<< HEAD
+    palette = {
+=======
+    colors = {
+>>>>>>> template/main
+>>>>>>> main
         0: "[orange1]",
         1: "[salmon1]",
         2: "[violet]",
         3: "[sky_blue1]",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        "ERROR": "[white on #F43F5E]",
+        "WARNING": "[black on #EAB308]",
+        "SUCCESS": "[black on #10B981]",
+        "INFO": "[grey70]",
+    }
+    color = get_safe(palette, level, "") or get_safe(palette, indent, "") or "[white]"
+    if newline:
+        print()
+    print(indent * "    " + color + str(message) + "[/]", end="", flush=True)
+=======
+>>>>>>> main
         "ERROR": "[#F43F5E]",
         "WARNING": "[#EAB308]",
         "SUCCESS": "[#10B981]",
@@ -58,6 +88,10 @@ def log(message="\n--------------------\n", indent=0, level="", newline=True):
     if newline:
         print()
     print(indent * "    " + color + prefix + str(message) + "[/]", end="", flush=True)
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
 
 
 def label(entry):
@@ -93,17 +127,38 @@ def list_of_dicts(data):
     return isinstance(data, list) and all(isinstance(entry, dict) for entry in data)
 
 
+<<<<<<< HEAD
 def format_date(_date):
+=======
+<<<<<<< HEAD
+def format_date(date):
+=======
+def format_date(_date):
+>>>>>>> template/main
+>>>>>>> main
     """
     format date as YYYY-MM-DD, or no date if malformed
     """
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    if isinstance(date, int):
+        return datetime.fromtimestamp(date // 1000.0).strftime("%Y-%m-%d")
+    try:
+        return datetime.strptime(date, "%Y-%m-%d").strftime("%Y-%m-%d")
+=======
+>>>>>>> main
     if isinstance(_date, int):
         return datetime.fromtimestamp(_date // 1000.0).strftime("%Y-%m-%d")
     if isinstance(_date, (date, datetime)):
         return _date.strftime("%Y-%m-%d")
     try:
         return datetime.strptime(_date, "%Y-%m-%d").strftime("%Y-%m-%d")
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
     except Exception:
         return ""
 
@@ -184,7 +239,15 @@ def cite_with_manubot(_id):
         commands = ["manubot", "cite", _id, "--log-level=WARNING"]
         output = subprocess.Popen(commands, stdout=subprocess.PIPE).communicate()
     except Exception as e:
+<<<<<<< HEAD
         log(e, indent=3)
+=======
+<<<<<<< HEAD
+        log(e, 3)
+=======
+        log(e, indent=3)
+>>>>>>> template/main
+>>>>>>> main
         raise Exception("Manubot could not generate citation")
 
     # parse results as json

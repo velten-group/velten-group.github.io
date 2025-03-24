@@ -28,10 +28,24 @@
   font-size: var(--large);
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.alert-content > *:first-child {
+  margin-top: 0;
+}
+
+.alert-content > *:last-child {
+=======
+>>>>>>> main
 .alert-content > :first-child {
   margin-top: 0;
 }
 
 .alert-content > :last-child {
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
   margin-bottom: 0;
 }

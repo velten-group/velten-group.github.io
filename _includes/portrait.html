@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+{% assign member = site.members 
+  | where_exp: "member", "member.slug == include.lookup"
+  | first
+  | default: include
+%}
+=======
+>>>>>>> main
 {% if include.lookup %}
   {% assign member = site.members 
     | where_exp: "member", "member.slug == include.lookup"
@@ -8,10 +18,27 @@
 {% endif %}
 
 {% assign type = site.data.types[member.role] %}
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
 
 <div class="portrait-wrapper">
   <a
     {% if page.slug != member.slug %}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      href="{{ member.url | relative_url }}"
+    {% endif %}
+    class="portrait"
+    data-style="{{ include.style }}"
+    aria-label="{{ member.name | default: "member link" }}"
+  >
+    <img
+      src="{{ member.image | relative_url }}"
+=======
+>>>>>>> main
       href="{{ member.url | relative_url | uri_escape }}"
     {% endif %}
     class="portrait"
@@ -24,12 +51,36 @@
 
     <img
       src="{{ member.image | relative_url | uri_escape }}"
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
       class="portrait-image"
       alt="member portrait"
       loading="lazy"
       {% include fallback.html %}
     >
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    {% if member.name or member.role or member.description %}
+      <span class="portrait-text">
+        {% if member.name %}
+          <span class="portrait-name">
+            {{ member.name }}
+          </span>
+        {% endif %}
+
+        {% if member.role or member.description %}
+          <span class="portrait-role">
+            {% assign type = site.data.types[member.role] %}
+            {% include icon.html icon=type.icon %}
+            <span>{{ member.description | default: type.description }}</span>
+          </span>
+        {% endif %}
+=======
+>>>>>>> main
     {% if member.name %}
       <span class="portrait-name">
         {{ member.name }}
@@ -45,6 +96,10 @@
     {% if member.affiliation %}
       <span class="portrait-affiliation">
         {{ member.affiliation }}
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
       </span>
     {% endif %}
   </a>

@@ -38,7 +38,15 @@
 
   // normalize tag string for comparison
   window.normalizeTag = (tag) =>
+<<<<<<< HEAD
     tag.trim().toLowerCase().replaceAll(/\s+/g, "-");
+=======
+<<<<<<< HEAD
+    tag.trim().toLowerCase().replaceAll(/-|\s+/g, " ");
+=======
+    tag.trim().toLowerCase().replaceAll(/\s+/g, "-");
+>>>>>>> template/main
+>>>>>>> main
 
   // get data attribute contents of element and children
   const getAttr = (element, attr) =>

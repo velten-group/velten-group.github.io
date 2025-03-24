@@ -1,8 +1,20 @@
 #! /bin/bash
 
 # print folder contents for debugging
+<<<<<<< HEAD
 printf "\n\nContents:\n\n"
 ls
+=======
+<<<<<<< HEAD
+echo "Contents:"
+echo ""
+ls
+echo ""
+=======
+printf "\n\nContents:\n\n"
+ls
+>>>>>>> template/main
+>>>>>>> main
 
 # run cite process
 python3 _cite/cite.py

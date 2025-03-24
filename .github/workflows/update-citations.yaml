@@ -24,6 +24,19 @@ env:
 
 jobs:
   update-citations:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    runs-on: ubuntu-22.04
+    timeout-minutes: 15
+
+    steps:
+      # for debugging
+      - uses: crazy-max/ghaction-dump-context@v2
+
+      - name: Checkout branch contents
+=======
+>>>>>>> main
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -33,13 +46,24 @@ jobs:
 
       - name: Checkout branch contents
         if: github.event.action != 'closed'
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
         uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.head_ref }}
 
       - name: Setup Python
+<<<<<<< HEAD
         if: github.event.action != 'closed'
+=======
+<<<<<<< HEAD
+=======
+        if: github.event.action != 'closed'
+>>>>>>> template/main
+>>>>>>> main
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -47,6 +71,23 @@ jobs:
           cache-dependency-path: "**/requirements.txt"
 
       - name: Install Python packages
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        run: |
+          python -m pip install --upgrade --requirement ./_cite/requirements.txt
+
+      # for debugging
+      - if: runner.debug == '1'
+        uses: mxschmitt/action-tmate@v3
+
+      - name: Build updated citations
+        run: python _cite/cite.py
+        timeout-minutes: 15
+
+      - name: Check if citations changed
+=======
+>>>>>>> main
         if: github.event.action != 'closed'
         run: |
           python -m pip install --upgrade --requirement ./_cite/requirements.txt
@@ -69,6 +110,10 @@ jobs:
 
       - name: Check if citations changed
         if: github.event.action != 'closed'
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
         id: changed
         uses: tj-actions/verify-changed-files@v18
         with:
@@ -77,7 +122,14 @@ jobs:
 
       - name: Commit updated citations to branch
         if: |
+<<<<<<< HEAD
           github.event.action != 'closed' &&
+=======
+<<<<<<< HEAD
+=======
+          github.event.action != 'closed' &&
+>>>>>>> template/main
+>>>>>>> main
           steps.changed.outputs.files_changed == 'true' &&
           inputs.open-pr != true
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -86,15 +138,34 @@ jobs:
 
       - name: Open pull request with updated citations
         if: |
+<<<<<<< HEAD
           github.event.action != 'closed' &&
+=======
+<<<<<<< HEAD
+=======
+          github.event.action != 'closed' &&
+>>>>>>> template/main
+>>>>>>> main
           steps.changed.outputs.files_changed == 'true' &&
           inputs.open-pr == true
         uses: peter-evans/create-pull-request@v6
         with:
           branch: citation-update
           title: Periodic citation update
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+    outputs:
+      changed: ${{ steps.changed.outputs.files_changed }}
+=======
+>>>>>>> main
           body: |
             To see a live preview of this PR, close (don't merge) and reopen it.
 
     outputs:
       changed: ${{ steps.changed.outputs.files_changed || false }}
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main

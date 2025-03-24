@@ -47,7 +47,15 @@ $wrap: 800px;
   }
 
   .feature-image {
+<<<<<<< HEAD
     width: 100%;
+=======
+<<<<<<< HEAD
+    width: unset;
+=======
+    width: 100%;
+>>>>>>> template/main
+>>>>>>> main
     max-width: calc($wrap / 2);
   }
 }

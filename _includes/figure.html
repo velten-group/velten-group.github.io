@@ -1,6 +1,18 @@
 <figure class="figure">
   <a
     {% if include.link %}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      href="{{ include.link | relative_url }}"
+    {% endif %}
+    class="figure-image"
+    aria-label="{{ include.caption | default: "figure link" }}"
+  >
+    <img
+      src="{{ include.image | relative_url }}"
+=======
+>>>>>>> main
       href="{{ include.link | relative_url | uri_escape }}"
     {% endif %}
     class="figure-image"
@@ -8,11 +20,23 @@
   >
     <img
       src="{{ include.image | relative_url | uri_escape }}"
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
       style="
         width: {{ include.width | default: "auto" }};
         max-height: {{ include.height | default: "unset" }};
       "
+<<<<<<< HEAD
       alt="{{ include.caption | default: "figure image" | regex_strip }}"
+=======
+<<<<<<< HEAD
+      alt="{{ include.caption | default: "figure image" }}"
+=======
+      alt="{{ include.caption | default: "figure image" | regex_strip }}"
+>>>>>>> template/main
+>>>>>>> main
       loading="lazy"
       {% include fallback.html %}
     >

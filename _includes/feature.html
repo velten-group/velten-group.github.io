@@ -6,6 +6,20 @@
 >
   <a
     {% if include.link %}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      href="{{ include.link | relative_url }}" 
+    {% endif %}
+    class="feature-image"
+    aria-label="{{ include.title | default: "feature link" }}"
+  >
+    <img
+      src="{{ include.image | relative_url }}"
+      loading="lazy"
+      alt="{{ include.title | default: "feature image" }}"
+=======
+>>>>>>> main
       href="{{ include.link | relative_url | uri_escape }}"
     {% endif %}
     class="feature-image"
@@ -15,6 +29,10 @@
       src="{{ include.image | relative_url | uri_escape }}"
       loading="lazy"
       alt="{{ include.title | default: "feature image" | regex_strip }}"
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
       {% include fallback.html %}
     >
   </a>

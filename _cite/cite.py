@@ -13,9 +13,20 @@ from util import *
 load_dotenv()
 
 
+<<<<<<< HEAD
 # save errors/warnings for reporting at end
 errors = []
 warnings = []
+=======
+<<<<<<< HEAD
+# error flag
+error = False
+=======
+# save errors/warnings for reporting at end
+errors = []
+warnings = []
+>>>>>>> template/main
+>>>>>>> main
 
 # output citations file
 output_file = "_data/citations.yaml"
@@ -42,46 +53,107 @@ for plugin in plugins:
     files = Path.cwd().glob(f"_data/{plugin.stem}*.*")
     files = list(filter(lambda p: p.suffix in [".yaml", ".yml", ".json"], files))
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    log(f"Found {len(files)} {plugin.stem}* data file(s)", 1)
+
+    # loop through data files
+    for file in files:
+        log(f"Processing data file {file.name}", 1)
+=======
+>>>>>>> main
     log(f"Found {len(files)} {plugin.stem}* data file(s)", indent=1)
 
     # loop through data files
     for file in files:
         log(f"Processing data file {file.name}", indent=1)
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
 
         # load data from file
         try:
             data = load_data(file)
             # check if file in correct format
             if not list_of_dicts(data):
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+                raise Exception("File not a list of dicts")
+        except Exception as e:
+            log(e, 2, "ERROR")
+            error = True
+=======
+>>>>>>> main
                 raise Exception(f"{file.name} data file not a list of dicts")
         except Exception as e:
             log(e, indent=2, level="ERROR")
             errors.append(e)
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
             continue
 
         # loop through data entries
         for index, entry in enumerate(data):
+<<<<<<< HEAD
             log(f"Processing entry {index + 1} of {len(data)}, {label(entry)}", level=2)
+=======
+<<<<<<< HEAD
+            log(f"Processing entry {index + 1} of {len(data)}, {label(entry)}", 2)
+=======
+            log(f"Processing entry {index + 1} of {len(data)}, {label(entry)}", level=2)
+>>>>>>> template/main
+>>>>>>> main
 
             # run plugin on data entry to expand into multiple sources
             try:
                 expanded = import_module(f"plugins.{plugin.stem}").main(entry)
                 # check that plugin returned correct format
                 if not list_of_dicts(expanded):
+<<<<<<< HEAD
                     raise Exception(f"{plugin.stem} plugin didn't return list of dicts")
+=======
+<<<<<<< HEAD
+                    raise Exception("Plugin didn't return list of dicts")
+=======
+                    raise Exception(f"{plugin.stem} plugin didn't return list of dicts")
+>>>>>>> template/main
+>>>>>>> main
             # catch any plugin error
             except Exception as e:
                 # log detailed pre-formatted/colored trace
                 print(traceback.format_exc())
                 # log high-level error
+<<<<<<< HEAD
                 log(e, indent=3, level="ERROR")
                 errors.append(e)
+=======
+<<<<<<< HEAD
+                log(e, 3, "ERROR")
+                error = True
+=======
+                log(e, indent=3, level="ERROR")
+                errors.append(e)
+>>>>>>> template/main
+>>>>>>> main
                 continue
 
             # loop through sources
             for source in expanded:
                 if plugin.stem != "sources":
+<<<<<<< HEAD
                     log(label(source), level=3)
+=======
+<<<<<<< HEAD
+                    log(label(source), 3)
+=======
+                    log(label(source), level=3)
+>>>>>>> template/main
+>>>>>>> main
 
                 # include meta info about source
                 source["plugin"] = plugin.name
@@ -91,7 +163,15 @@ for plugin in plugins:
                 sources.append(source)
 
             if plugin.stem != "sources":
+<<<<<<< HEAD
                 log(f"{len(expanded)} source(s)", indent=3)
+=======
+<<<<<<< HEAD
+                log(f"{len(expanded)} source(s)", 3)
+=======
+                log(f"{len(expanded)} source(s)", indent=3)
+>>>>>>> template/main
+>>>>>>> main
 
 
 log("Merging sources by id")
@@ -104,7 +184,15 @@ for a in range(0, len(sources)):
     for b in range(a + 1, len(sources)):
         b_id = get_safe(sources, f"{b}.id", "")
         if b_id == a_id:
+<<<<<<< HEAD
             log(f"Found duplicate {b_id}", indent=2)
+=======
+<<<<<<< HEAD
+            log(f"Found duplicate {b_id}", 2)
+=======
+            log(f"Found duplicate {b_id}", indent=2)
+>>>>>>> template/main
+>>>>>>> main
             sources[a].update(sources[b])
             sources[b] = {}
 sources = [entry for entry in sources if entry]
@@ -125,10 +213,19 @@ citations = []
 for index, source in enumerate(sources):
     log(f"Processing source {index + 1} of {len(sources)}, {label(source)}")
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main
     # if explicitly flagged, remove/ignore entry
     if get_safe(source, "remove", False) == True:
         continue
 
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
     # new citation data for source
     citation = {}
 
@@ -137,7 +234,15 @@ for index, source in enumerate(sources):
 
     # Manubot doesn't work without an id
     if _id:
+<<<<<<< HEAD
         log("Using Manubot to generate citation", indent=1)
+=======
+<<<<<<< HEAD
+        log("Using Manubot to generate citation", 1)
+=======
+        log("Using Manubot to generate citation", indent=1)
+>>>>>>> template/main
+>>>>>>> main
 
         try:
             # run Manubot and set citation
@@ -145,6 +250,20 @@ for index, source in enumerate(sources):
 
         # if Manubot cannot cite source
         except Exception as e:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            # if regular source (id entered by user), throw error
+            if get_safe(source, "plugin", "") == "sources.py":
+                log(e, 3, "ERROR")
+                error = True
+            # otherwise, if from metasource (id retrieved from some third-party API), just warn
+            else:
+                log(e, 3, "WARNING")
+                # discard source from citations
+                # continue
+=======
+>>>>>>> main
             plugin = get_safe(source, "plugin", "")
             file = get_safe(source, "file", "")
             # if regular source (id entered by user), throw error
@@ -159,6 +278,10 @@ for index, source in enumerate(sources):
                 )
                 # discard source from citations
                 continue
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
 
     # preserve fields from input source, overriding existing fields
     citation.update(source)
@@ -181,6 +304,22 @@ try:
     save_data(output_file, citations)
 except Exception as e:
     log(e, level="ERROR")
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    error = True
+
+
+# exit at end, so user can see all errors in one run
+if error:
+    log("Error(s) occurred above", level="ERROR")
+    exit(1)
+else:
+    log("All done!", level="SUCCESS")
+
+log("\n")
+=======
+>>>>>>> main
     errors.append(e)
 
 
@@ -203,4 +342,9 @@ if len(errors):
 else:
     log("All done!", level="SUCCESS")
 
+<<<<<<< HEAD
 log()
+=======
+log()
+>>>>>>> template/main
+>>>>>>> main

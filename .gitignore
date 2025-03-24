@@ -5,8 +5,16 @@ _site
 vendor
 debug.log
 __pycache__
+<<<<<<< HEAD
 .cache
 !cache.db
+=======
+<<<<<<< HEAD
+.cache
+!cache.db
+=======
+>>>>>>> template/main
+>>>>>>> main
 .DS_STORE
 .env*
 package.json

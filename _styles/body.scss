@@ -1,15 +1,40 @@
 ---
 ---
 
+<<<<<<< HEAD
 body {
   display: flex;
   flex-direction: column;
+=======
+<<<<<<< HEAD
+html,
+body {
+=======
+body {
+  display: flex;
+  flex-direction: column;
+>>>>>>> template/main
+>>>>>>> main
   margin: 0;
   padding: 0;
   min-height: 100vh;
   background: var(--background);
   color: var(--text);
   font-family: var(--body);
+<<<<<<< HEAD
   text-align: center;
   line-height: var(--compact);
+=======
+<<<<<<< HEAD
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+=======
+  text-align: center;
+  line-height: var(--compact);
+>>>>>>> template/main
+>>>>>>> main
 }

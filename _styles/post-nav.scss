@@ -9,6 +9,27 @@ $wrap: 600px;
   align-items: flex-start;
   gap: 10px;
   color: var(--gray);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  line-height: calc(var(--spacing) - 0.4);
+}
+
+.post-nav > *:first-child {
+  text-align: left;
+}
+
+.post-nav > *:last-child {
+  text-align: right;
+}
+
+.post-nav > *:first-child .icon {
+  margin-right: 0.5em;
+}
+
+.post-nav > *:last-child .icon {
+=======
+>>>>>>> main
 }
 
 .post-nav > :first-child {
@@ -24,6 +45,10 @@ $wrap: 600px;
 }
 
 .post-nav > :last-child .icon {
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
   margin-left: 0.5em;
 }
 

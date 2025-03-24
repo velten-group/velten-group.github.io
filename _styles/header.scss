@@ -43,11 +43,24 @@ header a {
 }
 
 .logo > * {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  height: 100%;
+}
+
+.title {
+=======
+>>>>>>> main
   width: unset;
   height: 100%;
 }
 
 .title-text {
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
@@ -58,11 +71,27 @@ header a {
   text-align: left;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+// main title
+.title > *:first-child {
+  font-size: var(--large);
+}
+
+// subtitle
+.title > *:last-child {
+=======
+>>>>>>> main
 .title {
   font-size: var(--large);
 }
 
 .subtitle {
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
   opacity: 0.65;
   font-weight: var(--thin);
 }
@@ -74,8 +103,19 @@ header a {
   height: 30px;
   margin: 0;
   color: var(--text);
+<<<<<<< HEAD
   appearance: none;
   transition: background var(--transition);
+=======
+<<<<<<< HEAD
+  -webkit-appearance: none;
+  appearance: none;
+  transition-property: background;
+=======
+  appearance: none;
+  transition: background var(--transition);
+>>>>>>> template/main
+>>>>>>> main
 }
 
 .nav-toggle:after {
@@ -149,20 +189,46 @@ header[data-big] {
 
   .logo {
     height: $logo-big;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  }
+
+  .title {
+=======
+>>>>>>> main
     flex-shrink: 0;
   }
 
   .title-text {
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  .title > *:first-child {
+    font-size: var(--xxl);
+  }
+
+  .title > *:last-child {
+=======
+>>>>>>> main
   .title {
     font-size: var(--xxl);
   }
 
   .subtitle {
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
     font-size: var(--large);
   }
 }

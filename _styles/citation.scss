@@ -4,6 +4,14 @@
 $thumb-size: 180px;
 $wrap: 800px;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.citation {
+  display: flex;
+  margin: 15px 0;
+=======
+>>>>>>> main
 .citation-container {
   container-type: inline-size;
 }
@@ -11,6 +19,10 @@ $wrap: 800px;
 .citation {
   display: flex;
   margin: 20px 0;
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
@@ -36,7 +48,15 @@ $wrap: 800px;
   position: relative;
   display: inline-flex;
   flex-wrap: wrap;
+<<<<<<< HEAD
   gap: 10px;
+=======
+<<<<<<< HEAD
+  gap: 15px;
+=======
+  gap: 10px;
+>>>>>>> template/main
+>>>>>>> main
   max-width: 100%;
   height: min-content;
   padding: 20px;
@@ -51,6 +71,13 @@ $wrap: 800px;
 .citation-details,
 .citation-description {
   width: 100%;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  line-height: calc(var(--spacing) - 0.4);
+=======
+>>>>>>> template/main
+>>>>>>> main
 }
 
 .citation-title {
@@ -67,10 +94,19 @@ $wrap: 800px;
   z-index: -1;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main
 .citation-publisher {
   text-transform: capitalize;
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
 .citation-description {
   color: var(--gray);
 }
@@ -91,7 +127,15 @@ $wrap: 800px;
   margin: 0;
 }
 
+<<<<<<< HEAD
 @container (max-width: #{$wrap}) {
+=======
+<<<<<<< HEAD
+@media (max-width: $wrap) {
+=======
+@container (max-width: #{$wrap}) {
+>>>>>>> template/main
+>>>>>>> main
   .citation {
     flex-direction: column;
   }

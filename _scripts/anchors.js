@@ -6,7 +6,15 @@
   const onLoad = () => {
     // for each heading
     const headings = document.querySelectorAll(
+<<<<<<< HEAD
       "h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]"
+=======
+<<<<<<< HEAD
+      "h1[id], h2[id], h3[id], h4[id]"
+=======
+      "h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]"
+>>>>>>> template/main
+>>>>>>> main
     );
     for (const heading of headings) {
       // create anchor link

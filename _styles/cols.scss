@@ -18,11 +18,25 @@ $one: 500px;
   min-height: 0;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.cols > div > *:first-child {
+  margin-top: 0 !important;
+}
+
+.cols > div > *:last-child {
+=======
+>>>>>>> main
 .cols > div > :first-child {
   margin-top: 0 !important;
 }
 
 .cols > div > :last-child {
+<<<<<<< HEAD
+=======
+>>>>>>> template/main
+>>>>>>> main
   margin-bottom: 0 !important;
 }
 
