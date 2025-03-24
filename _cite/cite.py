@@ -8,7 +8,6 @@ from pathlib import Path
 from dotenv import load_dotenv
 from util import *
 
-
 # load environment variables
 load_dotenv()
 
