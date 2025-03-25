@@ -13,13 +13,8 @@ Want to [join us](https://velten-group.github.io/join/)?
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filters="role == 'postdoc'" %}
-{% include list.html data="members" component="portrait" filters="role == 'phd'" %}
-{% include list.html data="members" component="portrait" filters="role == 'msc'" %}
-{% include list.html data="members" component="portrait" filters="role == 'bsc'" %}
-{% include list.html data="members" component="portrait" filters="role == 'sysadmin'" %}
-{% include list.html data="members" component="portrait" filters="role == 'adminassistent'" %}
+{% % include list.html data="members" component="portrait" filters="role =~ 'pi','postdoc','phd','msc','bsc','sysadmin','adminassistent'" %
+ 
 
 <!-- {% include list.html data="members" component="portrait" filters="role != ^(?!pi$)" %} -->
 
