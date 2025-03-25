@@ -23,6 +23,8 @@ Want to [join us](https://velten-group.github.io/join/)?
 
 <!-- {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %} -->
 
+{% include section.html %}
+
 ## Alumni
 
 - Luna Račić, Research Inter
