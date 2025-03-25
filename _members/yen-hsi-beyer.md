@@ -1,7 +1,7 @@
 ---
 name: Yen-Hsi Beyer
-image: images/members/yen-hsi_beyer.png
-role: admin
+image: images/members/yen-hsi_beyer.jpg
+role: adminassistent
 aliases:
   - Yen-Hsi Beyer
 links:
