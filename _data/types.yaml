@@ -31,7 +31,7 @@ adminassistent:
   description: Admin
 
 visitor:
-  icon:  fa-solid fa-ufo
+  icon:  fa-solid fa-camera
   description: Visiting Postdoc
 
 mascot:
