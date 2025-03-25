@@ -27,7 +27,7 @@ We are a small interdisciplinary team with a shared passion for research and the
 
 {%
   include feature.html
-  image="images/team.jpeg"
+  image="images/Velten_group_bouldern_Sept2024.jpeg"
   link="team"
   title="Our Team"
   text=text
