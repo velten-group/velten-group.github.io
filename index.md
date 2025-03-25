@@ -105,15 +105,3 @@ Find out more about the software and tools developed by our group.
   style="bare"
   text=text
 %}
-Footer
-© 2025 GitHub, Inc.
-Footer navigation
-
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact
-
-ThomasGehPunkt reopened this
