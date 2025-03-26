@@ -1,3 +1,4 @@
+{% assign member = site.members
   | where_exp: "member", "member.slug == include.lookup"
   | first
   | default: include
@@ -28,6 +29,7 @@
           </span>
         {% endif %}
 
+        
         {% if member.role or member.description %}
           <span class="portrait-role">
             {% assign type = site.data.types[member.role] %}
