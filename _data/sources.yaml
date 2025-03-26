@@ -8,6 +8,7 @@
   tags:
     - multi-modal data integration
     - probabilistic factor models
+    - multi-omics
 - id: doi:10.1038/s41592-021-01343-9
   description: MEFISTO is a unsupervised method to integrate multi-modal data with continuous structures among the samples, e.g. in spatial or temporal data.
   image: https://biofam.github.io/MOFA2/images/mefisto.png
@@ -17,7 +18,7 @@
   tags:
     - multi-modal data integration
     - probabilistic factor models
-    - spatio-temporal models
+    - spatio-temporal omics
 - id: doi:10.1093/bioinformatics/btad183
   description: FISHFactor identifies spatial gene expression patterns at subcellular resolution
   image: https://github.com/bioFAM/FISHFactor/raw/master/model.png
@@ -26,7 +27,7 @@
       link: https://github.com/bioFAM/FISHFactor
   tags:
     - probabilistic factor models
-    - spatial models
+    - spatial omics
 - id: doi:10.1101/2024.05.06.592692
   description: crispat is a Python framework for assigning cells to guides in pooled single cell CRISPR assays
   authors:
@@ -38,3 +39,8 @@
   buttons:
     - type: GitHub page
       link: https://github.com/velten-group/crispat
+  tags:
+    - CRISPR 
+    - guide assignment
+- id: pmid:29925568
+  remove: true
