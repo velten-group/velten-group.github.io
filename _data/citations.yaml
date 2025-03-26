@@ -1,5 +1,37 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1101/2024.11.28.625833
+  title: A genome-scale single cell CRISPRi map of<i>trans</i>gene regulation across
+    human pluripotent stem cell lines
+  authors:
+  - Claudia Feng
+  - Elin Madli Peets
+  - Yan Zhou
+  - Luca Crepaldi
+  - Sunay Usluer
+  - Alistair Dunham
+  - Jana M Braunger
+  - Jing Su
+  - Magdalena E Strauss
+  - Daniele Muraro
+  - Kimberly Ai Xian Cheam
+  - Marc Jan Bonder
+  - Edgar Garriga Nogales
+  - Sarah Cooper
+  - Andrew Bassett
+  - Steven Leonard
+  - Yong Gu
+  - Bo Fussing
+  - David Burke
+  - Leopold Parts
+  - Oliver Stegle
+  - Britta Velten
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-11-28'
+  link: https://doi.org/g89vbp
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1093/bioinformatics/btae535
   title: Guide assignment in single-cell CRISPR screens using crispat
   authors:
