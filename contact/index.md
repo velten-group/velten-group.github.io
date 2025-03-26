@@ -40,5 +40,3 @@ Heidelberg <br>
   headline=""
   text=text
 %}
-~                                                                                                                                                                                                                 
-~       

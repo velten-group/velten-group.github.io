@@ -5,9 +5,11 @@ role: pi
 aliases:
   - Britta Velten
 links:
-  bluesky: brittavelten
+  email: britta.velten@cos.uni-heidelberg.de
+  bluesky: brittavelten.bsky.social
   orcid: 0000-0002-8397-3515
   github: bv2
+  linkedin: britta-velten-22a36813a
 ---
 
 Britta is a tenure-track-professor for Multifactorial Data Analysis and Machine Learning in the Life Sciences at the Centre for Organismal Studies (COS) and the Centre for Scientific Computing (IWR) of Heidelberg University. Trained as a mathematician, she obtained a PhD in Statistics from ETH Zurich and European Molecular Biology Laboratory (EMBL) working with Peter Bühlmann and Wolfgang Huber. Afterwards she did her Postdoc at the German Cancer Research Center and the Wellcome Sanger Institute in Cambridge. 
