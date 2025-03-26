@@ -5,12 +5,21 @@
   authors:
   - Jana M. Braunger
   - Britta Velten
-  publisher: Cold Spring Harbor Laboratory
-  date: '2024-05-10'
+  publisher: Bioinformatics
+  date: '2024-09-06'
   link: https://doi.org/gtvstf
   orcid: 0000-0002-8397-3515
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  description: crispat is a Python framework for assigning cells to guides in pooled
+    single cell CRISPR assays
+  image: https://github.com/velten-group/crispat/blob/main/crispat_logo.png
+  buttons:
+  - type: GitHub page
+    link: https://github.com/velten-group/crispat
+  tags:
+  - CRISPR
+  - guide assignment
 - id: doi:10.1038/s41589-024-01568-7
   title: In situ analysis of osmolyte mechanisms of proteome thermal stabilization
   authors:
@@ -94,7 +103,7 @@
     link: https://github.com/bioFAM/FISHFactor
   tags:
   - probabilistic factor models
-  - spatial models
+  - spatial omics
 - id: doi:10.1038/s41586-023-05869-0
   title: Spatial multiomics map of trophoblast development in early pregnancy
   authors:
@@ -158,7 +167,7 @@
   tags:
   - multi-modal data integration
   - probabilistic factor models
-  - spatio-temporal models
+  - spatio-temporal omics
 - id: pmid:33113372
   title: Developmental Gene Expression Differences between Humans and Mammalian Models.
   authors:
@@ -289,25 +298,6 @@
   orcid: 0000-0002-8397-3515
   plugin: orcid.py
   file: orcid.yaml
-- id: pmid:29925568
-  title: Multi-Omics Factor Analysis-a framework for unsupervised integration of multi-omics
-    data sets.
-  authors:
-  - Ricard Argelaguet
-  - Britta Velten
-  - Damien Arnol
-  - Sascha Dietrich
-  - Thorsten Zenz
-  - John C Marioni
-  - Florian Buettner
-  - Wolfgang Huber
-  - Oliver Stegle
-  publisher: Molecular systems biology
-  date: '2018-06-20'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/29925568
-  orcid: 0000-0002-8397-3515
-  plugin: orcid.py
-  file: orcid.yaml
 - id: pmid:29227286
   title: Drug-perturbation-based stratification of blood cancer.
   authors:
@@ -393,5 +383,6 @@
   tags:
   - multi-modal data integration
   - probabilistic factor models
+  - multi-omics
   plugin: sources.py
   file: sources.yaml
