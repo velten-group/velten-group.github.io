@@ -534,26 +534,15 @@
   <section class="background" data-size="page">
     <div class="float">
   
-<div class="portrait-wrapper">
-  <a class="portrait" data-style="" aria-label="Francisca Gaspar Vieira">
-    <img src="/images/members/francisca_vieira.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+<p>| where_exp: “member”, “member.slug == include.lookup”
+  | first
+  | default: include
+%}</p>
 
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Francisca Gaspar Vieira
-          </span>
-        
-      &lt;/br&gt;
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-graduation-cap"></i>
-            <span>PhD Student</span>
-          </span>
-        
-      </span>
+<div class="portrait-wrapper">
+  <a href="" class="portrait" data-style="" aria-label="member link">
+    <img src="" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
     
   </a>
 </div>
@@ -683,7 +672,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="mailto:britta.velten%20%5Bat%5D%20cos.uni-heidelberg.de" data-tooltip="Email" data-style="bare" aria-label="Email">
+    <a class="button" href="mailto:britta.velten@cos.uni-heidelberg.de" data-tooltip="Email" data-style="bare" aria-label="Email">
       <i class="icon fa-solid fa-envelope"></i>
       
     </a>
@@ -743,7 +732,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://bsky.app/profile/brittavelten" data-tooltip="Bluesky" data-style="bare" aria-label="Bluesky">
+    <a class="button" href="https://bsky.app/profile/brittavelten.bsky.social" data-tooltip="Bluesky" data-style="bare" aria-label="Bluesky">
       <i class="icon fa-brands fa-bluesky"></i>
       
     </a>
