@@ -14,8 +14,12 @@ Want to [join us](https://velten-group.github.io/join/)?
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-
-
+{% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+{% include list.html data="members" component="portrait" filter="role == 'msc'" %}
+{% include list.html data="members" component="portrait" filter="role == 'bsc'" %}
+{% include list.html data="members" component="portrait" filter="role == 'sysadmin'" %}
+{% include list.html data="members" component="portrait" filter="role == 'adminassistent'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
