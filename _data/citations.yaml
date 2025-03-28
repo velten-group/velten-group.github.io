@@ -288,48 +288,6 @@
   orcid: 0000-0002-8397-3515
   plugin: orcid.py
   file: orcid.yaml
-- id: pmid:31243369
-  title: Gene expression across mammalian organ development.
-  authors:
-  - Margarida Cardoso-Moreira
-  - Jean Halbert
-  - Delphine Valloton
-  - Britta Velten
-  - Chunyan Chen
-  - Yi Shao
-  - "Ang\xE9lica Liechti"
-  - "Kelly Ascen\xE7\xE3o"
-  - Coralie Rummel
-  - Svetlana Ovchinnikova
-  - Pavel V Mazin
-  - Ioannis Xenarios
-  - Keith Harshman
-  - Matthew Mort
-  - David N Cooper
-  - Carmen Sandi
-  - Michael J Soares
-  - Paula G Ferreira
-  - Sandra Afonso
-  - Miguel Carneiro
-  - James M A Turner
-  - John L VandeBerg
-  - Amir Fallahshahroudi
-  - Per Jensen
-  - "R\xFCdiger Behr"
-  - Steven Lisgo
-  - Susan Lindsay
-  - Philipp Khaitovich
-  - Wolfgang Huber
-  - Julie Baker
-  - Simon Anders
-  - Yong E Zhang
-  - Henrik Kaessmann
-  publisher: Nature
-  date: '2019-06-26'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/31243369
-  orcid: 0000-0002-8397-3515
-  plugin: orcid.py
-  file: orcid.yaml
 - id: pmid:29227286
   title: Drug-perturbation-based stratification of blood cancer.
   authors:
