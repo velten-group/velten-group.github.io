@@ -13,9 +13,16 @@ Want to [join us](https://velten-group.github.io/join/)?
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role != nil" %}
+-{% include list.html data="members" component="portrait" where="role: pi" %}
+-{% include list.html data="members" component="portrait" where="role: postdoc" %}
+-{% include list.html data="members" component="portrait" where="role: phd" %}
+-{% include list.html data="members" component="portrait" where="role: msc" %}
+-{% include list.html data="members" component="portrait" where="role: bsc" %}
+-{% include list.html data="members" component="portrait" where="role: sysadmin" %}
+-{% include list.html data="members" component="portrait" where="role: adminassistent" %}
 
-<!-- {% include list.html data="members" component="portrait" filters="role != ^(?!pi$)" %} -->
+
+<!-- {% include list.html data="members" component="portrait" where="role != ^(?!pi$)" %} -->
 
 {% include section.html background="images/background.jpg" dark=true %}
 
