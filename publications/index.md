@@ -31,4 +31,4 @@ Here you can find our recent publications.
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include list.html data="citations" image="images/logo.svg"  component="citation" style="rich" %}
