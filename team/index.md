@@ -13,7 +13,7 @@ Want to [join us](https://velten-group.github.io/join/)?
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi' %}
+{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
 
 
 
