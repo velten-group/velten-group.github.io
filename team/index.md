@@ -13,16 +13,14 @@ Want to [join us](https://velten-group.github.io/join/)?
 
 {% include section.html %}
 
--{% include list.html data="members | where: 'role', 'pi'" component="portrait" %}
--{% include list.html data="members | where: 'role', 'postdoc'" component="portrait" %}
--{% include list.html data="members | where: 'role', 'phd'" component="portrait" %}
--{% include list.html data="members | where: 'role', 'msc'" component="portrait" %}
--{% include list.html data="members | where: 'role', 'bsc'" component="portrait" %}
--{% include list.html data="members | where: 'role', 'sysadmin'" component="portrait" %}
--{% include list.html data="members | where: 'role', 'adminassistent'" component="portrait" %}
+{% include list.html data="members | where: 'role', 'pi'" component="portrait" %}
+{% include list.html data="members | where: 'role', 'postdoc'" component="portrait" %}
+{% include list.html data="members | where: 'role', 'phd'" component="portrait" %}
+{% include list.html data="members | where: 'role', 'msc'" component="portrait" %}
+{% include list.html data="members | where: 'role', 'bsc'" component="portrait" %}
+{% include list.html data="members | where: 'role', 'sysadmin'" component="portrait" %}
+{% include list.html data="members | where: 'role', 'adminassistent'" component="portrait" %}
 
-
-<!-- {% include list.html data="members" component="portrait" filter="role != ^(?!pi$)" %} -->
 
 {% include section.html background="images/background.jpg" dark=true %}
 
