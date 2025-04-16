@@ -18,7 +18,7 @@ In general, you should bring a strong track record in a quantitative field (incl
 
 We are looking for a scientific programmer to join our group at Heidelberg University. You will advance the functionality, usability and robustness of computational tools developed in our group, reach-out to users to identify additional requirements and organize trainings and workshops to instruct people on the software and its wider scientific context.
 
-More informations can be found [here](https://jobrxiv.org/job/heidelberg-university-27778-scientific-software-developer).
+More information can be found [here](https://jobrxiv.org/job/heidelberg-university-27778-scientific-software-developer).
 
 ### Postdocs
 
