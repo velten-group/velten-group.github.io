@@ -200,22 +200,6 @@
   - multi-modal data integration
   - probabilistic factor models
   - spatio-temporal omics
-- id: pmid:33113372
-  title: Developmental Gene Expression Differences between Humans and Mammalian Models.
-  authors:
-  - Margarida Cardoso-Moreira
-  - Ioannis Sarropoulos
-  - Britta Velten
-  - Matthew Mort
-  - David N Cooper
-  - Wolfgang Huber
-  - Henrik Kaessmann
-  publisher: Cell reports
-  date: '2020-10-27'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/33113372
-  orcid: 0000-0002-8397-3515
-  plugin: orcid.py
-  file: orcid.yaml
 - id: pmid:32393329
   title: 'MOFA+: a statistical framework for comprehensive integration of multi-modal
     single-cell data.'
@@ -230,49 +214,6 @@
   publisher: Genome biology
   date: '2020-05-11'
   link: https://www.ncbi.nlm.nih.gov/pubmed/32393329
-  orcid: 0000-0002-8397-3515
-  plugin: orcid.py
-  file: orcid.yaml
-- id: pmid:32404973
-  title: Survey of ex vivo drug combination effects in chronic lymphocytic leukemia
-    reveals synergistic drug effects and genetic dependencies.
-  authors:
-  - Marina Lukas
-  - Britta Velten
-  - Leopold Sellner
-  - Katarzyna Tomska
-  - "Jennifer H\xFCellein"
-  - Tatjana Walther
-  - Lena Wagner
-  - Carolin Muley
-  - Bian Wu
-  - "Ma\u0142gorzata Ole\u015B"
-  - Sascha Dietrich
-  - Alexander Jethwa
-  - Hanibal Bohnenberger
-  - Junyan Lu
-  - Wolfgang Huber
-  - Thorsten Zenz
-  publisher: Leukemia
-  date: '2020-05-13'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/32404973
-  orcid: 0000-0002-8397-3515
-  plugin: orcid.py
-  file: orcid.yaml
-- id: pmid:31913281
-  title: Mechanistic insights into transcription factor cooperativity and its impact
-    on protein-phenotype interactions.
-  authors:
-  - Ignacio L Ibarra
-  - Nele M Hollmann
-  - Bernd Klaus
-  - Sandra Augsten
-  - Britta Velten
-  - Janosch Hennig
-  - Judith B Zaugg
-  publisher: Nature communications
-  date: '2020-01-08'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/31913281
   orcid: 0000-0002-8397-3515
   plugin: orcid.py
   file: orcid.yaml
