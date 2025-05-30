@@ -6,6 +6,7 @@ aliases:
   - Valerie Segatz
 links:
   email: valerie.segatz@stud.uni-heidelberg.de
+  github: val0854s
 ---
 
 Valerie is an intern in the Velten lab who completed her bachelor's degree in "Bioanalytics" at Coburg University. Currently, she pursues her master's studies in "Molecular Biotechnology" at Heidelberg University, specializing in Bioinformatics.
