@@ -1,6 +1,6 @@
 ---
 name: Valerie Segatz
-image: images/members/valerie_segatz
+image: images/members/valerie_segatz.jpg
 role: intern
 aliases:
   - Valerie Segatz
