@@ -21,6 +21,7 @@ Want to [join us](https://velten-group.github.io/join/)?
 {% include list.html data="members" component="portrait" filter="role == 'visitor'" %}
 {% include list.html data="members" component="portrait" filter="role == 'sysadmin'" %}
 {% include list.html data="members" component="portrait" filter="role == 'adminassistent'" %}
+{% include list.html data="members" component="portrait" filter="role == 'intern'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
