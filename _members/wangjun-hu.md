@@ -1,7 +1,7 @@
 ---
 name: Wangjun Hu
 image: images/members/wangjun_hu.jpg
-role: msc
+role: phd
 aliases:
   - Wangjun Hu
 links:
