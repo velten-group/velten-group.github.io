@@ -1,7 +1,7 @@
 ---
 name: Valerie Segatz
 image: images/members/valerie_segatz.jpg
-role: intern
+role: msc
 aliases:
   - Valerie Segatz
 links:
