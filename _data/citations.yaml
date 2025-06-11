@@ -276,6 +276,18 @@
   orcid: 0000-0002-8397-3515
   plugin: orcid.py
   file: orcid.yaml
+- id: pmid:31596468
+  title: Adaptive penalization in high-dimensional regression and classification with
+    external covariates using variational Bayes.
+  authors:
+  - Britta Velten
+  - Wolfgang Huber
+  publisher: Biostatistics (Oxford, England)
+  date: '2021-04-10'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31596468
+  orcid: 0000-0002-8397-3515
+  plugin: orcid.py
+  file: orcid.yaml
 - id: pmid:31243369
   title: Gene expression across mammalian organ development.
   authors:
