@@ -6,7 +6,7 @@ aliases:
   - Francisca G. Vieira
   - Francisca Vieira
 links:
-  email: francisca.gaspar.vieira@gmail.com
+  email: francisca.gaspar.vieira@cos.uni-heidelberg.de
   linkedin: francisca-gaspar-vieira
   orcid: 0000-0002-9767-4356
   github: franciscagvieira
