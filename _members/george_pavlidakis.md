@@ -1,6 +1,6 @@
 ---
 name: George Pavlidakis 
-image: images/members/george_pavlidakis.jpeg
+image: images/members/george_pavlidakis.jpg
 role: msc
 links:
   email: georgios.pavlidakis@stud.uni-heidelberg.de
