@@ -23,8 +23,12 @@ msc:
   description: MSc Student
 
 sysadmin:
-  icon: fa-solid fa-code
+  icon: fa-solid fa-network-wired
   description: System Admin
+
+sciprogrammer:
+  icon: fa-solid fa-code
+  description: Scientific Programmer
   
 adminassistent:
   icon: fa-solid fa-envelope-open

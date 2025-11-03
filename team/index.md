@@ -28,7 +28,8 @@ Want to [join us](https://velten-group.github.io/join/)?
 {% include section.html %}
 
 ## Alumni
-
+- Stijn Hawinkel, Visiting Postdoc
+- Valerie Segatz, MSc Student
 - Carina Brazile, Msc Student
 - Joshua Weiss, BSc Student
 - Julian Rebentisch, MSc Student
