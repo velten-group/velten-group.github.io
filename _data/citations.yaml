@@ -1,8 +1,8 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
 - id: doi:10.1101/2024.11.28.625833
-  title: A genome-scale single cell CRISPRi map of<i>trans</i>gene regulation across
-    human pluripotent stem cell lines
+  title: "A genome-scale single cell CRISPRi map of\n                  <i>trans</i>\n\
+    \                  gene regulation across human pluripotent stem cell lines"
   authors:
   - Claudia Feng
   - Elin Madli Peets
@@ -26,7 +26,7 @@
   - Leopold Parts
   - Oliver Stegle
   - Britta Velten
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2024-11-28'
   link: https://doi.org/g89vbp
   orcid: 0000-0002-8397-3515
