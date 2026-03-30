@@ -1,8 +1,8 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2024.11.28.625833
-  title: "A genome-scale single cell CRISPRi map of\n                  <i>trans</i>\n\
-    \                  gene regulation across human pluripotent stem cell lines"
+- id: doi:10.1016/j.xgen.2025.101076
+  title: A genome-scale single cell CRISPRi map of<i>trans</i>gene regulation across
+    human pluripotent stem cell lines
   authors:
   - Claudia Feng
   - Elin Madli Peets
@@ -26,9 +26,9 @@
   - Leopold Parts
   - Oliver Stegle
   - Britta Velten
-  publisher: openRxiv
-  date: '2024-11-28'
-  link: https://doi.org/g89vbp
+  publisher: Cell Genomics
+  date: '2025-03-30'
+  link: https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00332-5
   orcid: 0000-0002-8397-3515
   plugin: orcid.py
   file: orcid.yaml
