@@ -2,6 +2,34 @@
 
 Reference: common-changelog.org
 
+## 1.3.8 - 2025-11-17
+
+### Changed
+
+- Inherit secrets in GitHub Actions workflows where appropriate
+- Add commented out ORCID plugin code to discard source if no ID
+
+## 1.3.7 - 2025-07-31
+
+### Changed
+
+- Improve cleanup of PR preview folders in gh-pages branch.
+- Only run debug dump in debug mode to speed up workflow runs.
+
+## 1.3.6 - 2025-07-30
+
+### Changed
+
+- Improve behavior and flexibility of ORCID cite plugin.
+
+## 1.3.5 - 2025-05-12
+
+### Changed
+
+- Fix workflow bug where PR previews on GitHub Actions have broken styles/links/etc.
+- Fix tags component relative link bug.
+- Make Actions workflows a bit more robust.
+
 ## 1.3.4 - 2025-02-03
 
 ### Changed
