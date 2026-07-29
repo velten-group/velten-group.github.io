@@ -405,7 +405,7 @@
   - Christoph Plass
   - Emma Andersson
   - Satu Mustjoki
-  - Christof Kalle
+  - Christof von Kalle
   - Anthony D. Ho
   - Manfred Hensel
   - "Jan D\xFCrig"
@@ -413,8 +413,8 @@
   - Marc Zapatka
   - Wolfgang Huber
   - Thorsten Zenz
-  publisher: The Journal of Clinical Investigation
-  date: '2018-01-02'
+  publisher: Journal of Clinical Investigation
+  date: '2017-12-11'
   link: https://doi.org/gd8hpf
   orcid: 0000-0002-8397-3515
   plugin: orcid.py
