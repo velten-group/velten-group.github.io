@@ -5,13 +5,14 @@ role: phd
 aliases:
   - Wangjun Hu
 links:
-  email: hu.wangjun@stud.uni-heidelberg.de
+  email: wangjun.hu@cos.uni-heidelberg.de
   twitter: HuWangjun
   github: coding-ecoli
+  orcid: 0009-0005-9965-6978
 ---
 
-Wangjun is a master student at AG Velten. He completed his bachelor degree in “Molecular Biotechnology” at Heidelberg University focusing in bioinformatics and is currently studying for his master’s degree in “Molecular Biotechnology” at Heidelberg University as well. During his year abroad as a visiting student at Tsinghua University, he explored his passion for computer science, complementing his strong interest in *translational statistics* for biological questions.
+Wangjun is a PhD student in the Velten lab. He has a background in molecular biotechnology and a strong interest in computer science. He enjoys drawing inspiration from problems in computer science, finding their parallels in biology, and adapting those frameworks to answer biological questions, an approach that could be described as translational statistics. 
 
-In his master's thesis, Wangjun is working with spatial transcriptomics data. He applies factor models and explores various frameworks to identify subcellular co-localization patterns of genes that define cellular phenotypes otherwise undetectable at the cellular level.
+In his PhD, Wangjun studies spatial patterns across scales, from the subcellular to the tissue level. He develops computational methods to identify these patterns, with the goal of linking them to biological outcomes relevant for diagnostics. 
 
-Outside of work, Wangjun enjoys engaging in various sports such as running, weightlifting, and practicing Brazilian Jiu-Jitsu. In addition, he has a passion for film photography and enjoys listening to podcasts.
+Outside of work, Wangjun enjoys sports such as running and weightlifting. He is also a fan of coffee, art, and film photography, and he likes listening to podcasts.
