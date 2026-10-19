@@ -11,4 +11,4 @@ Francisca, Jana, Jan and Wangjun contributed as speakers and trainers at the EMB
 <!-- excerpt end -->
 They shared our expertise on Probabilistic Factor Models for Multi-Omics Data Integration. 
 
-You can find more about this EMBO Course in https://www.embl.org/about/info/course-and-conference-office/events/mmd26-01/.
+You can read more about this [EMBO Course](https://www.embl.org/about/info/course-and-conference-office/events/mmd26-01/) on the EMBL website.
