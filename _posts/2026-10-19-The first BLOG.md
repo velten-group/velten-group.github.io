@@ -3,9 +3,7 @@ title: This ist us !
 image: images/some-photo.jpg
 author: Thomas G.
 tags:
-  - biology
-  - big data
-  - medicine
+  - introduction
 ---
 
 <!-- excerpt start -->
