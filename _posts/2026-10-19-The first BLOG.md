@@ -9,6 +9,6 @@ tags:
 ---
 
 <!-- excerpt start -->
-Here we
+Here we are ...
 <!-- excerpt end -->
-This will be our blog for the future
+... this will be our blog for the future!
