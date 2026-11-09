@@ -3,7 +3,7 @@
 
 # Welcome to the Velten Group!
 
-**[!IMPORTANT] Please follow our [BLOG](https://velten-group.org/blog/)**
+ **_Please follow our [BLOG](https://velten-group.org/blog/)_**
 
 We are an interdisciplinary team of scientists at [Heidelberg University](https://www.uni-heidelberg.de/en) developing statistical methods and machine learning approaches to move from molecular data (‘omics data’) to biological insight.
 
