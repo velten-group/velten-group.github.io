@@ -3,6 +3,8 @@
 
 # Welcome to the Velten Group!
 
+**[!IMPORTANT] Please follow our [BLOG](https://velten-group.org/blog/)**
+
 We are an interdisciplinary team of scientists at [Heidelberg University](https://www.uni-heidelberg.de/en) developing statistical methods and machine learning approaches to move from molecular data (‘omics data’) to biological insight.
 
 Complex experimental designs and novel technologies enable researchers to study biological processes at unprecedented resolution and scale. We aim to translate and advance ideas from machine learning and statistics for the analysis of such data and make them available to the research community. Jointly with our collaborators we apply our methods to unravel the molecular underpinnings of organismal function, development, plasticity and diseases.
