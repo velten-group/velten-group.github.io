@@ -2,6 +2,7 @@
 title: Teaching at EMBL - Integrative analysis of multi-omics data
 image: images/blog/EMBL_teaching.jpg
 author: Velten Group
+last_modified_at: ""
 tags:
   - teaching
 ---
